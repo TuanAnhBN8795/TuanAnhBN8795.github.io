@@ -335,7 +335,7 @@ ul {
   background-repeat: no-repeat;
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.4); }
   .view-box .top-view-box {
-    height: 300px; }
+    height: 30rem; }
   .view-box .bottom-view-box {
     transition-duration: 1s; }
     .view-box .bottom-view-box .title-view-box {
@@ -372,7 +372,7 @@ ul {
     margin-left: auto;
     margin-bottom: 20px; }
     .view-box .top-view-box {
-      height: 120px; }
+      height: 25rem; }
     .view-box .bottom-view-box .title-view-box {
       padding: 20px 30px; }
       .view-box .bottom-view-box .title-view-box p {
@@ -382,7 +382,7 @@ ul {
 
 @media only screen and (min-width: 600px) and (max-width: 769px) {
   .view-box .top-view-box {
-    height: 120px; }
+    height: 25rem; }
   .view-box .bottom-view-box .title-view-box {
     padding: 15px 25px; }
     .view-box .bottom-view-box .title-view-box p {
@@ -392,7 +392,7 @@ ul {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .view-box .top-view-box {
-    height: 220px; }
+    height: 25rem; }
   .view-box .bottom-view-box .title-view-box {
     padding: 15px 25px; }
     .view-box .bottom-view-box .title-view-box p {
@@ -1400,6 +1400,11 @@ body .home-session2 {
         width: 115%;
         height: 450px;
         z-index: 1; }
+        body .home-session2 .right-layout .middle-layout .history-box .image {
+          height: 235px;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat; }
         body .home-session2 .right-layout .middle-layout .history-box .arrow-next {
           right: 25%; }
         body .home-session2 .right-layout .middle-layout .history-box .arrow-prev {
@@ -2881,7 +2886,7 @@ body .container-tech {
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   body .container-tech {
-    padding: 30px 40px; }
+    padding: 30px 10px; }
     body .container-tech .header-page {
       display: block; }
       body .container-tech .header-page .left-layout {
@@ -2900,7 +2905,7 @@ body .container-tech {
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   body .container-tech {
-    padding: 30px 40px; }
+    padding: 30px 10px; }
     body .container-tech .header-page .left-layout p {
       font-size: 15px;
       padding-right: 50px; } }
