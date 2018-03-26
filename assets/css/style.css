@@ -1023,11 +1023,18 @@ body header.about-header {
     body header.common-header .container-nav .nav-session-2 .layout1 #document-tab:hover #document-img {
       display: none; }
     body header.common-header .container-nav .nav-session-2 .layout1 #new-feeds-tab:hover #news-img {
-      display: none; } }
+      display: none; }
+  body header.common-header .container-nav .nav-session-2 .layout1 .tab-layout1 #home-tab-show .tab-layout2 {
+    margin: 0; }
+  body header.common-header .container-nav .nav-session-2 .layout1 .tab-layout1 .layout2 .tab-layout2 p {
+    padding-left: 0;
+    padding-top: 20px; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1240px) {
   body header.common-header .container-nav .nav-session-2 .layout1 .tab-layout1 .image-show img {
-    width: 97%; } }
+    width: 97%; }
+  body header.common-header .container-nav .nav-session-2 .layout1 .tab-layout1 #home-tab-show .tab-layout2 {
+    margin-top: 120px; } }
 
 footer {
   font-family: 'Roboto', serif; }
