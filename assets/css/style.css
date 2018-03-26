@@ -2823,9 +2823,11 @@ body .container-tech {
   background-color: #3b3b3b;
   font-family: 'Roboto', serif; }
   body .container-tech .view-box .bottom-view-box {
-    background-color: #ffffff; }
+    background: linear-gradient(to top, black, rgba(255, 0, 0, 0)); }
     body .container-tech .view-box .bottom-view-box p {
-      color: #999999; }
+      color: #ffffff; }
+  body .container-tech .view-box {
+    background-size: cover; }
   body .container-tech .header-page {
     display: -ms-flexbox;
     display: flex;
