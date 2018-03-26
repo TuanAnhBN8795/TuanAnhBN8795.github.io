@@ -42,6 +42,72 @@ $(document).ready(function(){
             }
         ]
     });
+    $('.slide-slick-home').slick({
+        infinite: false,
+        slidesToShow: sizeSlide,
+        slidesToScroll: 1,
+        nextArrow: '<button type="button" class="button-circle arrow-next"><i class="fa fa-angle-right"></i></button>',
+        prevArrow: '<button type="button" class="button-circle arrow-prev"><i class="fa fa-angle-left"></i></button>',
+        responsive: [
+            {
+                breakpoint: 980, // tablet breakpoint
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 480, // mobile breakpoint
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+    $('.slide-slick-type1').slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        nextArrow: '<button type="button" class="button-circle-slide-type1 arrow-next-slide-type1"><i class="fa fa-angle-right"></i></button>',
+        prevArrow: '<button type="button" class="button-circle-slide-type1 arrow-prev-slide-type1"><i class="fa fa-angle-left"></i></button>',
+        responsive: [
+            {
+                breakpoint: 980, // tablet breakpoint
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 480, // mobile breakpoint
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+    $('.slide-slick-type2').slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        nextArrow: '<button type="button" class="button-circle-slide-type1 arrow-next-slide-type1"><i class="fa fa-angle-right"></i></button>',
+        prevArrow: '<button type="button" class="button-circle-slide-type1 arrow-prev-slide-type1"><i class="fa fa-angle-left"></i></button>',
+        responsive: [
+            {
+                breakpoint: 980, // tablet breakpoint
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 480, // mobile breakpoint
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+    });
   });
 
 $( window ).resize(function() {
