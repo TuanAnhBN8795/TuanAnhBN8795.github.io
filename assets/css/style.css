@@ -1301,7 +1301,7 @@ body .home-session1 {
       z-index: 3;
       position: absolute; }
     body .home-session1 .first-layout .slick-dots li button:before {
-      font-size: 16px; }
+      font-size: 10px; }
     body .home-session1 .first-layout .slick-dots li.slick-active button:before {
       opacity: 1;
       color: #e75a0c; }
@@ -1601,7 +1601,7 @@ body .home-session6 {
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   body .home-session1 .first-layout .slick-dots {
-    left: 10%; }
+    left: 5%; }
   body .home-session1 .left-layout .top-layout .content1 h1 {
     font-size: 20px; }
   body .home-session1 .left-layout .top-layout .content2 {
@@ -1916,7 +1916,8 @@ body .home-session6 {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   body .home-session1 .first-layout .slick-dots {
-    left: 12%; }
+    left: 20%;
+    bottom: 68px; }
   body .home-session1 .left-layout .top-layout .content2 {
     display: block;
     padding-left: 18%;
@@ -2860,7 +2861,7 @@ body .container-tech {
     body .container-tech .contents-page .tech-row .tech-box-1 {
       background-image: url(../img/tech1.png); }
     body .container-tech .contents-page .tech-row .tech-box-2 {
-      background-image: url(../img/tech1.png); }
+      background-image: url(../img/tech2.png); }
     body .container-tech .contents-page .tech-row .tech-box-3 {
       background-image: url(../img/tech3.png); }
     body .container-tech .contents-page .tech-row .tech-box-4 {
