@@ -16,226 +16,474 @@
 </head>
 
 <body>
-<header class="common-header" id="my-header-home">
-    <div class="logo-header">
-        <a href="index.html"><img src="assets/img/Logo.svg"></a>
-    </div>
-    <div class="middle-header">
-        <p>TÀI LIỆU</p>
-    </div>
-    <div class="button-header">
-        <span>EN</span>/<span class="color-text">VN</span>
-        <i class="fa fa-bars" id="open-navbar"></i>
-    </div>
-</header>
-<div class="container-nav" id="my-navbar">
-    <div class="nav-session-1">
-        <div class="top-layout">
-            <img src="assets/img/logo3.svg" alt="">
+<header class="common-header" id="my-header">
+    <div class="main-nav" id="main-nav">
+        <div class="logo-header">
+            <a href="index.html"><img src="assets/img/Logo.svg"></a>
         </div>
-        <div class="middle-layout">
-            <img src="assets/img/logo.svg" alt="">
+        <div class="middle-header">
+            <p>TÀI LIỆU</p>
         </div>
-        <div class="bottom-layout">
-            <span>EN</span>|<span class="color">VN</span>
+        <div class="button-header">
+            <span>EN</span>|<span class="color-text">VN</span>
+            <i class="fa fa-bars" id="open-navbar"></i>
         </div>
     </div>
-    <div class="nav-session-2">
-        <ul class="layout1">
-            <a href="#">
-                <li class="tab-layout1" id="home-tab">
-                    Trang chủ
-                    <ul class="layout2" id="home-tab-show">
-                        <li class="tab-layout2 just-have-contents" id="home-page-introduce">
-                            <p>Chào mừng quý khách đến với thế giới Gạch kiến trúc INAX</p>
-                            <p>INAX là một thương hiệu của Lixil, với hơn 94 năm kinh nghiệm và hiện đang là nhà sản xuất
-                                gạch số 1 tại Nhật bản</p>
-                        </li>
-                    </ul>
-                </li>
-            </a>
-            <a href="#">
+    <div class="container-nav" id="my-nav">
+        <div class="nav-session-1">
+            <div class="top-layout">
+                <img src="assets/img/logo3.svg" alt="">
+            </div>
+            <div class="middle-layout">
+                <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+            </div>
+            <div class="bottom-layout">
+                <a href="#"><span>EN</span></a>|<a href="#"><span class="color">VN</span></a>
+            </div>
+        </div>
+        <div class="nav-session-2">
+            <ul class="layout1">
+                <a href="index.html">
+                    <li class="tab-layout1" id="home-tab">
+                        Trang chủ
+                        <ul class="layout2" id="home-tab-show">
+                            <li class="tab-layout2 just-have-contents" id="home-page-introduce">
+                                <p>Chào mừng quý khách đến với thế giới Gạch kiến trúc INAX</p>
+                                <p>INAX là một thương hiệu của Lixil, với hơn 94 năm kinh nghiệm và hiện đang là nhà sản
+                                    xuất
+                                    gạch số 1 tại Nhật bản</p>
+                            </li>
+                        </ul>
+                        <div class="image-show" id="home-img">
+                            <img src="assets/img/bg9.jpg">
+                        </div>
+                    </li>
+                </a>
                 <li class="tab-layout1" id="product-tab">
-                    Sản phẩm
+                    <div class="have-children">
+                        <div class="text-session"><p>Sản phẩm</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="product-tab-show">
                         <li class="tab-layout2" id="ecocarat-tab">
-                            <a href="#">
+                            <a href="product.html">
                                 <p class="item-hover-1">Ecocarat</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="gach-ho-boi-tab">
-                            <a href="#">
+                            <a href="product.html">
                                 <p class="item-hover-1">Giải pháp gạch hồ bơi</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="new-product-tab">
-                            <a href="#">
+                            <a href="product.html">
                                 <p class="item-hover-1">Sản phẩm mới</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="internal-tile-tab">
-                            <a href="#">
-                                <p class="item-hover-1">Gạch trong nước</p>
-                                <ul class="layout3" id="internal-tile-tab-show">
-                                    <li class="tab-layout3"><a href="#"><p class="item-hover-2">Checker</p></a></li>
-                                    <li class="tab-layout3"><a href="#"><p class="item-hover-2">CMG-Cool Mist Glass</p></a></li>
-                                    <li class="tab-layout3"><a href="#"><p class="item-hover-2">Kaiha</p></a></li>
-                                    <li class="tab-layout3"><a href="#"><p class="item-hover-2">R-Border</p></a></li>
-                                    <li class="tab-layout3"><a href="#"><p class="item-hover-2">EAC - Earth Color Border</p></a></li>
-                                    <li class="tab-layout3"><a href="#"><p class="item-hover-2">255/Viz Color</p></a></li>
-                                    <li class="tab-layout3"><a href="#"><p class="item-hover-2">355/Viz Color</p></a></li>
-                                    <li class="tab-layout3"><a href="#"><p class="item-hover-2">Paste Plain - Color</p></a></li>
-                                    <li class="tab-layout3"><a href="#"><p class="item-hover-2">SLC - SHINJYU Luster Color</p></a></li>
-                                </ul>
-                            </a>
+                            <p class="item-hover-1">Gạch trong nước</p>
+                            <ul class="layout3" id="internal-tile-tab-show">
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">
+                                    Checker</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">CMG-Cool
+                                    Mist Glass</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">Kaiha</p>
+                                </a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">
+                                    R-Border</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">EAC -
+                                    Earth Color Border</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">255/Viz
+                                    Color</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">355/Viz
+                                    Color</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">Paste
+                                    Plain - Color</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">SLC -
+                                    SHINJYU Luster Color</p></a></li>
+                            </ul>
                         </li>
                         <li class="tab-layout2" id="japan-tile-tab">
-                            <a href="#">
-                                <p class="item-hover-1">Giải nhập khẩu Nhật Bản</p>
+                            <a href="product.html">
+                                <p class="item-hover-1">Gạch nhập khẩu Nhật Bản</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="all-products-tab">
-                            <a href="#">
+                            <a href="product.html">
                                 <p class="item-hover-1">Tất cả sản phẩm</p>
                             </a>
                         </li>
                     </ul>
                 </li>
-            </a>
-            <a href="#">
                 <li class="tab-layout1" id="tech-tab">
-                    Công nghệ
+                    <div class="have-children">
+                        <div class="text-session"><p>Công nghệ</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="tech-tab-show">
                         <li class="tab-layout2" id="tech-ecocarat-tab">
-                            <a href="#">
+                            <a href="tech-detail.html">
                                 <p class="item-hover-1">Công nghệ ECOCARAT</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="tech-micro-guard-tab">
-                            <a href="#">
+                            <a href="tech-detail.html">
                                 <p class="item-hover-1">Công nghệ MICROGURAD</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="tech-luster-tab">
-                            <a href="#">
+                            <a href="tech-detail.html">
                                 <p class="item-hover-1">Công nghệ Luster</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="tech-gach-goc-tab">
-                            <a href="#">
+                            <a href="tech-detail.html">
                                 <p class="item-hover-1">Công nghệ gạch góc</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="tech-chan-gach-tab">
-                            <a href="#">
+                            <a href="tech-detail.html">
                                 <p class="item-hover-1">Công nghệ chân gạch (đuôi cá) của INAX</p>
                             </a>
                         </li>
                     </ul>
+                    <div class="image-show" id="tech-img">
+                        <img src="assets/img/bg9.jpg">
+                    </div>
                 </li>
-            </a>
-            <a href="#">
                 <li class="tab-layout1" id="reference-library-tab">
-                    Thư viện tham khảo
+                    <div class="have-children">
+                        <div class="text-session"><p>Thư viện tham khảo</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="reference-library-tab-show">
                         <li class="tab-layout2" id="reference-project-tab">
-                            <a href="#">
+                            <a href="gallery.html">
                                 <p class="item-hover-1">Dự án tham khảo</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="reference-video-tab">
-                            <a href="#">
+                            <a href="gallery.html">
                                 <p class="item-hover-1">Video tham khảo</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="gach-gieng-troi-tab">
-                            <a href="#">
+                            <a href="gallery.html">
                                 <p class="item-hover-1">Gạch INAX cho giếng trời</p>
                             </a>
                         </li>
                     </ul>
+                    <div class="image-show" id="library-img">
+                        <img src="assets/img/bg9.jpg">
+                    </div>
                 </li>
-            </a>
-            <a href="#">
-                <li class="tab-layout1" id="phoi-mau-gach-tab">
-                    Phối mẫu gạch
-                    <ul class="layout2" id="phoi-mau-gach-tab-show">
-                        <li class="tab-layout2 just-have-contents" id="phoi-mau-gach-introduce">
-                            <p>Tự tay chọn lựa mẫu gạch nội thất ưng ý với công nghệ tự phối mẫu gạch của INAX</p>
-                        </li>
-                    </ul>
-                </li>
-            </a>
-            <a href="#">
+                <a href="prototype.html">
+                    <li class="tab-layout1" id="phoi-mau-gach-tab">
+                        Mô phỏng thực tế
+                        <ul class="layout2" id="phoi-mau-gach-tab-show">
+                            <li class="tab-layout2 just-have-contents" id="phoi-mau-gach-introduce">
+                                <p>Tự tay chọn lựa mẫu gạch nội thất ưng ý với công nghệ tự phối mẫu gạch của INAX</p>
+                            </li>
+                        </ul>
+                        <div class="image-show" id="phoi-mau-gach-img">
+                            <img src="assets/img/bg9.jpg">
+                        </div>
+                    </li>
+                </a>
                 <li class="tab-layout1" id="system-distribution-tab">
-                    Hệ thống phân phối
+                    <div class="have-children">
+                        <div class="text-session"><p>Hệ thống phân phối</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="system-distribution-tab-show">
                         <li class="tab-layout2" id="shop-tab">
-                            <a href="#">
+                            <a href="distributor.html">
                                 <p class="item-hover-1">Cửa hàng bán lẻ</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="show-room-tab">
-                            <a href="#">
+                            <a href="distributor.html">
                                 <p class="item-hover-1">Showroom</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="local-shop-tab">
-                            <a href="#">
+                            <a href="distributor.html">
                                 <p class="item-hover-1">Đại lý khu vực</p>
                             </a>
                         </li>
                     </ul>
+                    <div class="image-show" id="system-img">
+                        <img src="assets/img/bg9.jpg">
+                    </div>
                 </li>
-            </a>
-            <a href="#">
                 <li class="tab-layout1" id="document-tab">
-                    Tài liệu
+                    <div class="have-children">
+                        <div class="text-session"><p>Tài liệu</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="document-tab-show">
-                        <li class="tab-layout2" id="doc-photo-tab">
-                            <a href="#">
-                                <p class="item-hover-1">doc-photo</p>
+                        <li class="tab-layout2" id="catalogue-tab">
+                            <a href="document-catalogue.html">
+                                <p class="item-hover-1">Catalogue</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="high-quality-photo-tab">
-                            <a href="#">
+                            <a href="document-photo.html">
                                 <p class="item-hover-1">Ảnh chất lượng cao</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="document-introduce-tab">
-                            <a href="#">
+                            <a href="document-guide.html">
                                 <p class="item-hover-1">Tài liệu hướng dẫn sử dụng</p>
                             </a>
                         </li>
                     </ul>
+                    <div class="image-show" id="document-img">
+                        <img src="assets/img/bg9.jpg">
+                    </div>
+                </li>
+                <a href="news.html">
+                    <li class="tab-layout1" id="new-feeds-tab">
+                        Tin tức
+                        <ul class="layout2" id="new-feeds-tab-show">
+                            <li class="tab-layout2 just-have-contents" id="new-feeds-introduce">
+                                <p>Luôn luôn cập nhật những tin tức chương trình khuyến mãi mới & hấp dẫn nhất tại
+                                    INAX</p>
+                            </li>
+                        </ul>
+                        <div class="image-show" id="news-img">
+                            <img src="assets/img/bg9.jpg">
+                        </div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="nav-session-3">
+            <div class="close-div">
+                <p class="close-btn" id="close-btn">x</p>
+            </div>
+            <div class="social-div">
+                <div class="facebook"><a href="facebook.com"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                </div>
+                <div class="youtube"><a href="youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+                <div class="google"><a href="google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
+            </div>
+            <div class="globalsite-div">
+                <p>Globalsite</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sm-main-nav" id="sm-main-nav">
+        <div class="logo-header">
+            <a href="index.html"><img src="assets/img/Logo.svg"></a>
+        </div>
+        <div class="middle-header">
+            <p>TÀI LIỆU</p>
+        </div>
+        <div class="button-header">
+            <span>EN</span>|<span class="color-text">VN</span>
+            <i class="fa fa-bars" id="sm-open-navbar"></i>
+        </div>
+    </div>
+    <div class="sm-container-nav" id="sm-my-nav">
+        <ul class="layout1">
+            <a href="index.html">
+                <li class="tab-layout1">
+                    Trang chủ
                 </li>
             </a>
-            <a href="#">
-                <li class="tab-layout1" id="new-feeds-tab">
+            <li class="tab-layout1" id="sm-product-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        Sản phẩm
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+
+                <ul class="layout2" id="sm-product-tab-show">
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Ecocarat
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Giải pháp gạch hồ bơi
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Sản phẩm mới
+                        </a>
+                    </li>
+                    <li class="tab-layout2" id="sm-internal-tiles">
+                        <div class="sm-have-list">
+                            <div class="sm-text">
+                                <p>Gạch trong nước</p>
+                            </div>
+                            <div class="down-row">
+                                <i class="fa fa-angle-double-down"></i>
+                            </div>
+                        </div>
+                        <ul class="layout3" id="sm-internal-tiles-show">
+                            <li class="tab-layout3"><a href="product-detail.html">Checker</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">CMG-Cool Mist Glass</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">Kaiha</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">R-Border</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">EAC - Earth Color Border</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">255/Viz Color</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">355/Viz Color</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">Paste Plain - Color</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">SLC - SHINJYU Luster Color</a></li>
+                        </ul>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Gạch nhập khẩu Nhật Bản
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Tất cả sản phẩm
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="tab-layout1" id="sm-tech-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        <p>Công nghệ</p>
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+                <ul class="layout2" id="sm-tech-tab-show">
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ ECOCARAT
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ MICROGURAD
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ Luster
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ gạch góc
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ chân gạch (đuôi cá) của INAX
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="tab-layout1" id="sm-lib-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        <p>Thư viện tham khảo</p>
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+                <ul class="layout2" id="sm-lib-tab-show">
+                    <li class="tab-layout2">
+                        <a href="gallery.html">
+                            Dự án tham khảo
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="gallery.html">
+                            Video tham khảo
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="gallery.html">
+                            Gạch INAX cho giếng trời
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <a href="prototype.html">
+                <li class="tab-layout1">
+                    Mô phỏng thực tế
+                </li>
+            </a>
+            <li class="tab-layout1" id="sm-sys-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        <p>Hệ thống phân phối</p>
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+                <ul class="layout2" id="sm-sys-tab-show">
+                    <li class="tab-layout2">
+                        <a href="distributor.html">
+                            Cửa hàng bán lẻ
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="distributor.html">
+                            Showroom
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="distributor.html">
+                            Đại lý khu vực
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="tab-layout1" id="sm-doc-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        <p>Tài liệu</p>
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+                <ul class="layout2" id="sm-doc-tab-show">
+                    <li class="tab-layout2">
+                        <a href="document-catalogue.html">
+                            Catalogue
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="document-photo.html">
+                            Ảnh chất lượng cao
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="document-guide.html">
+                            Tài liệu hướng dẫn sử dụng
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <a href="news.html">
+                <li class="tab-layout1">
                     Tin tức
-                    <ul class="layout2" id="new-feeds-tab-show">
-                        <li class="tab-layout2 just-have-contents" id="new-feeds-introduce">
-                            <p>Luôn luôn cập nhật những tin tức chương trình khuyến mãi mới & hấp dẫn nhất tại INAX</p>
-                        </li>
-                    </ul>
                 </li>
             </a>
         </ul>
     </div>
-    <div class="nav-session-3">
-        <div class="close-div">
-            <p class="close-btn" id="close-btn">x</p>
-        </div>
-        <div class="social-div">
-            <div class="facebook"><a href=""><i class="fa fa-facebook-f" aria-hidden="true"></i></a></div>
-            <div class="youtube"><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></div>
-            <div class="google"><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
-        </div>
-        <div class="globalsite-div">
-            <p>Globalsite</p>
-        </div>
-    </div>
-</div>
+</header>
 <div class="container-document-photo">
     <div class="left-side">
         <div class="top-left-side">
@@ -251,22 +499,36 @@
         </div>
     </div>
     <div class="right-side">
-        <div class="header-page">
-            <div class="left-layout">
-                <p>Ảnh chất lượng cao</p>
-            </div>
-            <div class="right-layout sub-link">
-                <a href="#">Trang chủ</a><span>.</span>
-                <a href="#">Tài liệu</a><span>.</span>
-                <a href="#">Ảnh chất lượng cao</a>
-            </div>
-        </div>
+            <div class="header-page">
+                    <div class="left-layout">
+                            <div class="dropdown-container">
+                                    <div id="dropdownClick" class="dropdown dropdown-classic">Ảnh chất lượng cao<i class="fa fa-angle-down dropdown-i"></i></div>
+                                        <div id="duAnClick" class="dropdown-content">
+                                        <a href="#thaokhao1">Ảnh chất lượng cao 1</a>
+                                        <a href="#thaokhao2">Ảnh chất lượng cao 2</a>
+                                        <a href="#thaokhao3">Ảnh chất lượng cao 3</a>
+                                        </div>
+                                    </div>
+                    </div>
+                    <div class="right-layout sub-link">
+                            <div class="download-all">
+                                    <div class="download-button button-top">
+                                            <i class="fa fa-arrow-down"></i>
+                                    </div>
+                                    <span>Tải về tất cả</span>
+                                    
+                            </div>
+                        <a href="#">Trang chủ</a><span>.</span>
+                        <a href="#">Tài liệu</a><span>.</span>
+                        <a href="#">Ảnh chất lượng cao</a>
+                    </div>
+                </div>
         <div class="contents-page">
             <div class="doc-photo-row">
                 <div class="doc-photo-box doc-photo-box-1">
-                    <div class="top-doc-photo-box">
-
-                    </div>
+                        <div class="download-button">
+                                <i class="fa fa-arrow-down"></i>
+                        </div>
                     <div class="bottom-doc-photo-box">
                         <div class="info-doc-photo-box">
                             <p>Lascave</p>
@@ -274,9 +536,9 @@
                     </div>
                 </div>
                 <div class="doc-photo-box doc-photo-box-2">
-                    <div class="top-doc-photo-box">
-
-                    </div>
+                        <div class="download-button">
+                                <i class="fa fa-arrow-down"></i>
+                        </div>
                     <div class="bottom-doc-photo-box">
                         <div class="info-doc-photo-box">
                             <p>Rthymic II</p>
@@ -284,9 +546,9 @@
                     </div>
                 </div>
                 <div class="doc-photo-box doc-photo-box-3">
-                    <div class="top-doc-photo-box">
-
-                    </div>
+                        <div class="download-button">
+                                <i class="fa fa-arrow-down"></i>
+                        </div>
                     <div class="bottom-doc-photo-box">
                         <div class="info-doc-photo-box">
                             <p>Molocado</p>
@@ -294,9 +556,9 @@
                     </div>
                 </div>
                 <div class="doc-photo-box doc-photo-box-4">
-                    <div class="top-doc-photo-box">
-
-                    </div>
+                        <div class="download-button">
+                                <i class="fa fa-arrow-down"></i>
+                        </div>
                     <div class="bottom-doc-photo-box">
                         <div class="info-doc-photo-box">
                             <p>Symphone</p>
@@ -304,177 +566,207 @@
                     </div>
                 </div>
                 <div class="doc-photo-box doc-photo-box-5">
-                    <div class="top-doc-photo-box">
-
-                    </div>
+                        <div class="download-button">
+                                <i class="fa fa-arrow-down"></i>
+                        </div>
                     <div class="bottom-doc-photo-box">
                         <div class="info-doc-photo-box">
                             <p>Ducante</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="doc-photo-row">
-                <div class="doc-photo-box doc-photo-box-4">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Lascave</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-3">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Rthymic II</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-2">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Molocado</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-5">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Symphone</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-1">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Ducante</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="doc-photo-row">
-                <div class="doc-photo-box doc-photo-box-2">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Lascave</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-3">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Rthymic II</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-5">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Molocado</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-1">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Symphone</p>
                         </div>
                     </div>
                 </div>
                 <div class="doc-photo-box doc-photo-box-4">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Ducante</p>
+                        <div class="download-button">
+                                <i class="fa fa-arrow-down"></i>
+                        </div>
+                        <div class="bottom-doc-photo-box">
+                            <div class="info-doc-photo-box">
+                                <p>Lascave</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="doc-photo-row">
-                <div class="doc-photo-box doc-photo-box-1">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Lascave</p>
+                    <div class="doc-photo-box doc-photo-box-3">
+                            <div class="download-button">
+                                    <i class="fa fa-arrow-down"></i>
+                            </div>
+                        <div class="bottom-doc-photo-box">
+                            <div class="info-doc-photo-box">
+                                <p>Rthymic II</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-2">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Rthymic II</p>
+                    <div class="doc-photo-box doc-photo-box-2">
+                            <div class="download-button">
+                                    <i class="fa fa-arrow-down"></i>
+                            </div>
+                        <div class="bottom-doc-photo-box">
+                            <div class="info-doc-photo-box">
+                                <p>Molocado</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-3">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Molocado</p>
+                    <div class="doc-photo-box doc-photo-box-5">
+                            <div class="download-button">
+                                    <i class="fa fa-arrow-down"></i>
+                            </div>
+                        <div class="bottom-doc-photo-box">
+                            <div class="info-doc-photo-box">
+                                <p>Symphone</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-4">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Symphone</p>
+                    <div class="doc-photo-box doc-photo-box-1">
+                            <div class="download-button">
+                                    <i class="fa fa-arrow-down"></i>
+                            </div>
+                        <div class="bottom-doc-photo-box">
+                            <div class="info-doc-photo-box">
+                                <p>Ducante</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="doc-photo-box doc-photo-box-5">
-                    <div class="top-doc-photo-box">
-
-                    </div>
-                    <div class="bottom-doc-photo-box">
-                        <div class="info-doc-photo-box">
-                            <p>Ducante</p>
+                    <div class="doc-photo-box doc-photo-box-2">
+                            <div class="download-button">
+                                    <i class="fa fa-arrow-down"></i>
+                            </div>
+                            <div class="bottom-doc-photo-box">
+                                <div class="info-doc-photo-box">
+                                    <p>Lascave</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                        <div class="doc-photo-box doc-photo-box-3">
+                                <div class="download-button">
+                                        <i class="fa fa-arrow-down"></i>
+                                </div>
+                            <div class="bottom-doc-photo-box">
+                                <div class="info-doc-photo-box">
+                                    <p>Rthymic II</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="doc-photo-box doc-photo-box-5">
+                                <div class="download-button">
+                                        <i class="fa fa-arrow-down"></i>
+                                </div>
+                            <div class="bottom-doc-photo-box">
+                                <div class="info-doc-photo-box">
+                                    <p>Molocado</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="doc-photo-box doc-photo-box-1">
+                                <div class="download-button">
+                                        <i class="fa fa-arrow-down"></i>
+                                </div>
+                            <div class="bottom-doc-photo-box">
+                                <div class="info-doc-photo-box">
+                                    <p>Symphone</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="doc-photo-box doc-photo-box-4">
+                                <div class="download-button">
+                                        <i class="fa fa-arrow-down"></i>
+                                </div>
+                            <div class="bottom-doc-photo-box">
+                                <div class="info-doc-photo-box">
+                                    <p>Ducante</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="doc-photo-box doc-photo-box-1">
+                                <div class="download-button">
+                                        <i class="fa fa-arrow-down"></i>
+                                </div>
+                                <div class="bottom-doc-photo-box">
+                                    <div class="info-doc-photo-box">
+                                        <p>Lascave</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-photo-box doc-photo-box-2">
+                                    <div class="download-button">
+                                            <i class="fa fa-arrow-down"></i>
+                                    </div>
+                                <div class="bottom-doc-photo-box">
+                                    <div class="info-doc-photo-box">
+                                        <p>Rthymic II</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-photo-box doc-photo-box-3">
+                                    <div class="download-button">
+                                            <i class="fa fa-arrow-down"></i>
+                                    </div>
+                                <div class="bottom-doc-photo-box">
+                                    <div class="info-doc-photo-box">
+                                        <p>Molocado</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-photo-box doc-photo-box-4">
+                                    <div class="download-button">
+                                            <i class="fa fa-arrow-down"></i>
+                                    </div>
+                                <div class="bottom-doc-photo-box">
+                                    <div class="info-doc-photo-box">
+                                        <p>Symphone</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-photo-box doc-photo-box-5">
+                                    <div class="download-button">
+                                            <i class="fa fa-arrow-down"></i>
+                                    </div>
+                                <div class="bottom-doc-photo-box">
+                                    <div class="info-doc-photo-box">
+                                        <p>Ducante</p>
+                                    </div>
+                                </div>
+                            </div>
             </div>
         </div>
     </div>
+    <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times; <span class="into">Close</span></span>
+              <div class="modal-body">
+                          <div class="popup">
+                                  <ul id="light-slider">
+                                          <li data-thumb="/assets/img/product1.jpg">
+                                              <img src="/assets/img/product1.jpg" />
+                                          </li>
+                                          <li data-thumb="/assets/img/product4.jpg">
+                                              <img src="/assets/img/product4.jpg" />
+                                          </li>
+                                          <li data-thumb="/assets/img/product2.jpg">
+                                              <img src="/assets/img/product2.jpg" />
+                                          </li>
+                                          <li data-thumb="/assets/img/product4.jpg">
+                                              <img src="/assets/img/product4.jpg" />
+                                          </li>
+                                          <li data-thumb="/assets/img/product11.jpg">
+                                              <img src="/assets/img/product11.jpg" />
+                                          </li>
+                                          <li data-thumb="/assets/img/product1.jpg">
+                                              <img src="/assets/img/product1.jpg" />
+                                          </li>
+                                          <li data-thumb="/assets/img/product4.jpg">
+                                              <img src="/assets/img/product4.jpg" />
+                                          </li>
+                                          <li data-thumb="/assets/img/product2.jpg">
+                                              <img src="/assets/img/product2.jpg" />
+                                          </li>
+                                          <li data-thumb="/assets/img/product4.jpg">
+                                              <img src="/assets/img/product4.jpg" />
+                                          </li>
+                                      </ul>
+                          </div>
+              </div>
+            </div>
+          
+          </div>
 </div>
 <footer>
     <div class="top-footer">
@@ -551,5 +843,6 @@
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/lightgallery-all.min.js"></script>
 <script src="assets/js/scripts.js"></script>
+<script src="assets/js/lightslider.js"></script>
 </body>
 </html>
