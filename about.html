@@ -7,7 +7,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/slick.min.css">
     <link rel="stylesheet" href="assets/css/slick-theme.min.css">
@@ -18,35 +18,54 @@
 </head>
 
 <body>
-<div class="container-nav" id="my-navbar">
-    <div class="nav-session-1">
-        <div class="top-layout">
-            <img src="assets/img/logo3.svg" alt="">
+<header class="common-header about-header" id="my-header">
+    <div class="main-nav" id="main-nav">
+        <div class="logo-header">
+            <a href="index.html"><img src="assets/img/Logo.svg"></a>
         </div>
-        <div class="middle-layout">
-            <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+        <div class="middle-header">
+            <p>GIỚI THIỆU</p>
         </div>
-        <div class="bottom-layout">
-            <a href="#"><span>EN</span></a>|<a href="#"><span class="color">VN</span></a>
+        <div class="button-header">
+            <span>EN</span>|<span class="color-text">VN</span>
+            <i class="fa fa-bars" id="open-navbar"></i>
         </div>
     </div>
-    <div class="nav-session-2">
-        <ul class="layout1">
-            <a href="index.html">
-                <li class="tab-layout1" id="home-tab">
-                    Trang chủ
-                    <ul class="layout2" id="home-tab-show">
-                        <li class="tab-layout2 just-have-contents" id="home-page-introduce">
-                            <p>Chào mừng quý khách đến với thế giới Gạch kiến trúc INAX</p>
-                            <p>INAX là một thương hiệu của Lixil, với hơn 94 năm kinh nghiệm và hiện đang là nhà sản xuất
-                                gạch số 1 tại Nhật bản</p>
-                        </li>
-                    </ul>
-                </li>
-            </a>
-            <a href="product.html">
+    <div class="container-nav" id="my-nav">
+        <div class="nav-session-1">
+            <div class="top-layout">
+                <img src="assets/img/logo3.svg" alt="">
+            </div>
+            <div class="middle-layout">
+                <a href="index.html"><img src="assets/img/Logo.svg" alt=""></a>
+            </div>
+            <div class="bottom-layout">
+                <a href="#"><span>EN</span></a>|<a href="#"><span class="color">VN</span></a>
+            </div>
+        </div>
+        <div class="nav-session-2">
+            <ul class="layout1">
+                <a href="index.html">
+                    <li class="tab-layout1" id="home-tab">
+                        Trang chủ
+                        <ul class="layout2" id="home-tab-show">
+                            <li class="tab-layout2 just-have-contents" id="home-page-introduce">
+                                <p>Chào mừng quý khách đến với thế giới Gạch kiến trúc INAX</p>
+                                <p>INAX là một thương hiệu của Lixil, với hơn 94 năm kinh nghiệm và hiện đang là nhà sản
+                                    xuất
+                                    gạch số 1 tại Nhật bản</p>
+                            </li>
+                        </ul>
+                        <div class="image-show" id="home-img">
+                            <img src="assets/img/bg9.jpg">
+                        </div>
+                    </li>
+                </a>
                 <li class="tab-layout1" id="product-tab">
-                    Sản phẩm
+                    <div class="have-children">
+                        <div class="text-session"><p>Sản phẩm</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="product-tab-show">
                         <li class="tab-layout2" id="ecocarat-tab">
                             <a href="product.html">
@@ -64,20 +83,27 @@
                             </a>
                         </li>
                         <li class="tab-layout2" id="internal-tile-tab">
-                            <a href="#">
-                                <p class="item-hover-1">Gạch trong nước</p>
-                                <ul class="layout3" id="internal-tile-tab-show">
-                                    <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">Checker</p></a></li>
-                                    <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">CMG-Cool Mist Glass</p></a></li>
-                                    <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">Kaiha</p></a></li>
-                                    <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">R-Border</p></a></li>
-                                    <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">EAC - Earth Color Border</p></a></li>
-                                    <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">255/Viz Color</p></a></li>
-                                    <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">355/Viz Color</p></a></li>
-                                    <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">Paste Plain - Color</p></a></li>
-                                    <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">SLC - SHINJYU Luster Color</p></a></li>
-                                </ul>
-                            </a>
+                            <p class="item-hover-1">Gạch trong nước</p>
+                            <ul class="layout3" id="internal-tile-tab-show">
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">
+                                    Checker</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">CMG-Cool
+                                    Mist Glass</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">Kaiha</p>
+                                </a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">
+                                    R-Border</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">EAC -
+                                    Earth Color Border</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">255/Viz
+                                    Color</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">355/Viz
+                                    Color</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">Paste
+                                    Plain - Color</p></a></li>
+                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">SLC -
+                                    SHINJYU Luster Color</p></a></li>
+                            </ul>
                         </li>
                         <li class="tab-layout2" id="japan-tile-tab">
                             <a href="product.html">
@@ -91,10 +117,11 @@
                         </li>
                     </ul>
                 </li>
-            </a>
-            <a href="tech.html">
                 <li class="tab-layout1" id="tech-tab">
-                    Công nghệ
+                    <div class="have-children">
+                        <div class="text-session"><p>Công nghệ</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="tech-tab-show">
                         <li class="tab-layout2" id="tech-ecocarat-tab">
                             <a href="tech-detail.html">
@@ -122,65 +149,80 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="image-show" id="tech-img">
+                        <img src="assets/img/bg9.jpg">
+                    </div>
                 </li>
-            </a>
-            <a href="gallery.html">
                 <li class="tab-layout1" id="reference-library-tab">
-                    Thư viện tham khảo
+                    <div class="have-children">
+                        <div class="text-session"><p>Thư viện tham khảo</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="reference-library-tab-show">
                         <li class="tab-layout2" id="reference-project-tab">
-                            <a href="#">
+                            <a href="gallery.html">
                                 <p class="item-hover-1">Dự án tham khảo</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="reference-video-tab">
-                            <a href="#">
+                            <a href="gallery.html">
                                 <p class="item-hover-1">Video tham khảo</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="gach-gieng-troi-tab">
-                            <a href="#">
+                            <a href="gallery.html">
                                 <p class="item-hover-1">Gạch INAX cho giếng trời</p>
                             </a>
                         </li>
                     </ul>
+                    <div class="image-show" id="library-img">
+                        <img src="assets/img/bg9.jpg">
+                    </div>
                 </li>
-            </a>
-            <a href="prototype.html">
-                <li class="tab-layout1" id="phoi-mau-gach-tab">
-                    Mô phỏng thực tế
-                    <ul class="layout2" id="phoi-mau-gach-tab-show">
-                        <li class="tab-layout2 just-have-contents" id="phoi-mau-gach-introduce">
-                            <p>Tự tay chọn lựa mẫu gạch nội thất ưng ý với công nghệ tự phối mẫu gạch của INAX</p>
-                        </li>
-                    </ul>
-                </li>
-            </a>
-            <a href="distributor.html">
+                <a href="prototype.html">
+                    <li class="tab-layout1" id="phoi-mau-gach-tab">
+                        Mô phỏng thực tế
+                        <ul class="layout2" id="phoi-mau-gach-tab-show">
+                            <li class="tab-layout2 just-have-contents" id="phoi-mau-gach-introduce">
+                                <p>Tự tay chọn lựa mẫu gạch nội thất ưng ý với công nghệ tự phối mẫu gạch của INAX</p>
+                            </li>
+                        </ul>
+                        <div class="image-show" id="phoi-mau-gach-img">
+                            <img src="assets/img/bg9.jpg">
+                        </div>
+                    </li>
+                </a>
                 <li class="tab-layout1" id="system-distribution-tab">
-                    Hệ thống phân phối
+                    <div class="have-children">
+                        <div class="text-session"><p>Hệ thống phân phối</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="system-distribution-tab-show">
                         <li class="tab-layout2" id="shop-tab">
-                            <a href="#">
+                            <a href="distributor.html">
                                 <p class="item-hover-1">Cửa hàng bán lẻ</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="show-room-tab">
-                            <a href="#">
+                            <a href="distributor.html">
                                 <p class="item-hover-1">Showroom</p>
                             </a>
                         </li>
                         <li class="tab-layout2" id="local-shop-tab">
-                            <a href="#">
+                            <a href="distributor.html">
                                 <p class="item-hover-1">Đại lý khu vực</p>
                             </a>
                         </li>
                     </ul>
+                    <div class="image-show" id="system-img">
+                        <img src="assets/img/bg9.jpg">
+                    </div>
                 </li>
-            </a>
-            <a href="#">
                 <li class="tab-layout1" id="document-tab">
-                    Tài liệu
+                    <div class="have-children">
+                        <div class="text-session"><p>Tài liệu</p></div>
+                        <div><span class="circle"></span></div>
+                    </div>
                     <ul class="layout2 have-list" id="document-tab-show">
                         <li class="tab-layout2" id="catalogue-tab">
                             <a href="document-catalogue.html">
@@ -198,524 +240,734 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="image-show" id="document-img">
+                        <img src="assets/img/bg9.jpg">
+                    </div>
+                </li>
+                <a href="news.html">
+                    <li class="tab-layout1" id="new-feeds-tab">
+                        Tin tức
+                        <ul class="layout2" id="new-feeds-tab-show">
+                            <li class="tab-layout2 just-have-contents" id="new-feeds-introduce">
+                                <p>Luôn luôn cập nhật những tin tức chương trình khuyến mãi mới & hấp dẫn nhất tại
+                                    INAX</p>
+                            </li>
+                        </ul>
+                        <div class="image-show" id="news-img">
+                            <img src="assets/img/bg9.jpg">
+                        </div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="nav-session-3">
+            <div class="close-div">
+                <p class="close-btn" id="close-btn">x</p>
+            </div>
+            <div class="social-div">
+                <div class="facebook"><a href="facebook.com"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                </div>
+                <div class="youtube"><a href="youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+                <div class="google"><a href="google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
+            </div>
+            <div class="globalsite-div">
+                <p>Globalsite</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sm-main-nav" id="sm-main-nav">
+        <div class="logo-header">
+            <a href="index.html"><img src="assets/img/Logo.svg"></a>
+        </div>
+        <div class="middle-header">
+            <p>GIỚI THIỆU</p>
+        </div>
+        <div class="button-header">
+            <span>EN</span>|<span class="color-text">VN</span>
+            <i class="fa fa-bars" id="sm-open-navbar"></i>
+        </div>
+    </div>
+    <div class="sm-container-nav" id="sm-my-nav">
+        <ul class="layout1">
+            <a href="index.html">
+                <li class="tab-layout1">
+                    Trang chủ
                 </li>
             </a>
+            <li class="tab-layout1" id="sm-product-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        Sản phẩm
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+
+                <ul class="layout2" id="sm-product-tab-show">
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Ecocarat
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Giải pháp gạch hồ bơi
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Sản phẩm mới
+                        </a>
+                    </li>
+                    <li class="tab-layout2" id="sm-internal-tiles">
+                        <div class="sm-have-list">
+                            <div class="sm-text">
+                                <p>Gạch trong nước</p>
+                            </div>
+                            <div class="down-row">
+                                <i class="fa fa-angle-double-down"></i>
+                            </div>
+                        </div>
+                        <ul class="layout3" id="sm-internal-tiles-show">
+                            <li class="tab-layout3"><a href="product-detail.html">Checker</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">CMG-Cool Mist Glass</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">Kaiha</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">R-Border</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">EAC - Earth Color Border</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">255/Viz Color</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">355/Viz Color</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">Paste Plain - Color</a></li>
+                            <li class="tab-layout3"><a href="product-detail.html">SLC - SHINJYU Luster Color</a></li>
+                        </ul>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Gạch nhập khẩu Nhật Bản
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="product.html">
+                            Tất cả sản phẩm
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="tab-layout1" id="sm-tech-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        <p>Công nghệ</p>
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+                <ul class="layout2" id="sm-tech-tab-show">
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ ECOCARAT
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ MICROGURAD
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ Luster
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ gạch góc
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="tech-detail.html">
+                            Công nghệ chân gạch (đuôi cá) của INAX
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="tab-layout1" id="sm-lib-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        <p>Thư viện tham khảo</p>
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+                <ul class="layout2" id="sm-lib-tab-show">
+                    <li class="tab-layout2">
+                        <a href="gallery.html">
+                            Dự án tham khảo
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="gallery.html">
+                            Video tham khảo
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="gallery.html">
+                            Gạch INAX cho giếng trời
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <a href="prototype.html">
+                <li class="tab-layout1">
+                    Mô phỏng thực tế
+                </li>
+            </a>
+            <li class="tab-layout1" id="sm-sys-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        <p>Hệ thống phân phối</p>
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+                <ul class="layout2" id="sm-sys-tab-show">
+                    <li class="tab-layout2">
+                        <a href="distributor.html">
+                            Cửa hàng bán lẻ
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="distributor.html">
+                            Showroom
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="distributor.html">
+                            Đại lý khu vực
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="tab-layout1" id="sm-doc-tab">
+                <div class="sm-have-list">
+                    <div class="sm-text">
+                        <p>Tài liệu</p>
+                    </div>
+                    <div class="down-row">
+                        <i class="fa fa-angle-double-down"></i>
+                    </div>
+                </div>
+                <ul class="layout2" id="sm-doc-tab-show">
+                    <li class="tab-layout2">
+                        <a href="document-catalogue.html">
+                            Catalogue
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="document-photo.html">
+                            Ảnh chất lượng cao
+                        </a>
+                    </li>
+                    <li class="tab-layout2">
+                        <a href="document-guide.html">
+                            Tài liệu hướng dẫn sử dụng
+                        </a>
+                    </li>
+                </ul>
+            </li>
             <a href="news.html">
-                <li class="tab-layout1" id="new-feeds-tab">
+                <li class="tab-layout1">
                     Tin tức
-                    <ul class="layout2" id="new-feeds-tab-show">
-                        <li class="tab-layout2 just-have-contents" id="new-feeds-introduce">
-                            <p>Luôn luôn cập nhật những tin tức chương trình khuyến mãi mới & hấp dẫn nhất tại INAX</p>
-                        </li>
-                    </ul>
                 </li>
             </a>
         </ul>
     </div>
-    <div class="nav-session-3">
-        <div class="close-div">
-            <p class="close-btn" id="close-btn">x</p>
-        </div>
-        <div class="social-div">
-            <div class="facebook"><a href="facebook.com"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></div>
-            <div class="youtube"><a href="youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></div>
-            <div class="google"><a href="google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
-        </div>
-        <div class="globalsite-div">
-            <p>Globalsite</p>
+</header>
+<div class="about-top-layout">
+    <div class="container">
+        <div class="middle">
+            <div class="middle-top">
+                <div class="sub-link">
+                    <a href="index.html">Trang chủ</a><span>.</span>
+                    <a href="product.html">Sản phẩm</a>
+                </div>
+            </div>
+            <div class="content left-inax downz">
+                <div class="center-panel-down">INAX</div>
+            </div>
+            <div class="content left-inax topz">
+                <div class="center-panel-down">INAX</div>
+            </div>
+            <div class="middle-bottom">
+                <div class="middle-bottom-top-z">
+                    <div class="center-panel">
+                        <div class="thumb">
+                            <div class="content left up">
+                                <div class="center-panel-top">
+                                    <p>Japan</p>
+                                    <p>technology</p>
+                                    <p>since</p>
+                                </div>
+                            </div>
+                            <div class="content left downz">
+                                <div class="center-panel-down">1924</div>
+                            </div>
+                            <div class="image-top">
+                                <img src="assets/img/img2.jpg" alt="" width="100%" height="100%"/>
+                            </div>
+                            <div class="content left topz">
+                                <div class="center-panel-down">1924</div>
+                            </div>
+                            <div class="content withtext">
+                                <div class="title">Kinh nghiệm và công nghệ</div>
+                                <div class="text">
+                                    Chúng tôi đã sản xuất gạch gốm sứ từ năm
+                                    1924 và hiện đang là là sản xuất gạch số 1
+                                    tại Nhật Bản. INAX sở hữu nhiều tri thức và
+                                    kinh nghiệm về gốm sứ và chúng tôi đã cẩn
+                                    thận gắn kết những sản phẩm của mình với
+                                    công nghệ đột phá nhằm đem đến sức sống
+                                    cho các công trình.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
-    <header class="about">
-        <div class="container">
-            <div class="top">
-                <div class="nav-left">
-                    <div class="logo">
-                            <a href="index.html"><img src="assets/img/Logo.svg"/ width="72px" height="25px"/></a>
+<section class="about-section">
+    <div class="slide-top" id="slide-history" size="5">
+        <div class="slide-slick">
+            <div class="group-items group-items-up">
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
+                </div>
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 26 15, 0 30, 26"/>
+                        </svg>
                     </div>
-                </div>
-                <div class="nav-title">
-                    <span>
-                        GIỚI THIỆU
-                    </span>
-                </div>
-                <div class="nav-right">
-                    <a href="#" id="open-navbar" class="menu">
-                        <i class="fa fa-bars"></i> 
-                    </a>
-                    <div class="language">
-                        <nav>
-                            <li>
-                                <a href="#" class="active">EN</a> |
-                            </li>
-                            <li>
-                                <a href="#">VN</a>
-                            </li>
-                        </nav>
+                    <div class="year">1989</div>
+                    <div class="text-content">
+                        Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the
+                        mperial Hotel, designed by Frank Lloyd Wright.
                     </div>
                 </div>
             </div>
-            <div class="middle">
-                <div class="middle-top">
-                    <div class="sub-link">
-                        <a href="index.html">Trang chủ</a><span>.</span>
-                        <a href="product.html">Sản phẩm</a>
+            <div class="group-items group-items-down">
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 0 15, 26 30, 0"/>
+                        </svg>
+                    </div>
+                    <div class="year">1945</div>
+                    <div class="text-content">
+                        Start of sanitary ware production.
                     </div>
                 </div>
-                <div class="content left-inax downz">
-                    <div class="center-panel-down">INAX</div>
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
                 </div>
-                <div class="content left-inax topz">
-                    <div class="center-panel-down">INAX</div>
+            </div>
+            <div class="group-items group-items-up">
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
                 </div>
-                <div class="middle-bottom">
-                    <div class="middle-bottom-top-z">
-                        <div class="center-panel">
-                            <div class="thumb">
-                                <div class="content left up">
-                                    <div class="center-panel-top">
-                                        <p>Japan</p>
-                                        <p>technology</p>
-                                        <p>since</p>
-                                    </div>
-                                </div>
-                                <div class="content left downz">
-                                    <div class="center-panel-down">1924</div>
-                                </div>
-                                <div class="image-top">
-                                    <img src="assets/img/img2.jpg" alt="" width="100%" height="100%"/>
-                                </div>
-                                <div class="content left topz">
-                                    <div class="center-panel-down">1924</div>
-                                </div>
-                                <div class="content withtext">
-                                    <div class="title">Kinh nghiệm và công nghệ</div>
-                                    <div class="text">
-                                            Chúng tôi đã sản xuất gạch gốm sứ từ năm
-                                            1924 và hiện đang là là sản xuất gạch số 1
-                                            tại Nhật Bản. INAX sở hữu nhiều tri thức và
-                                            kinh nghiệm về gốm sứ và chúng tôi đã cẩn
-                                            thận gắn kết những sản phẩm của mình với 
-                                            công nghệ đột phá nhằm đem đến sức sống 
-                                            cho các công trình.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 26 15, 0 30, 26"/>
+                        </svg>
+                    </div>
+                    <div class="year">1989</div>
+                    <div class="text-content">
+                        Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the
+                        mperial Hotel, designed by Frank Lloyd Wright.
                     </div>
                 </div>
             </div>
-        </div>
-        
-    </header>
-    <section>   
-        <div class="slide-top" id="slide-history" size="5">
-            <div class="slide-slick">
-                <div class="group-items group-items-up">
-                    <div class="image">
-                        <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
+            <div class="group-items group-items-down">
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 0 15, 26 30, 0"/>
+                        </svg>
                     </div>
-                    <div class="content">
-                        <div class="triangle">
-                            <svg viewBox="0 0 26 30">
-                                <polygon points="0, 26 15, 0 30, 26" />
-                            </svg>
-                        </div>                
-                        <div class="year">1989</div>
-                        <div class="text-content">
-                                Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the mperial Hotel, designed by Frank Lloyd Wright.
-                        </div>
+                    <div class="year">1989</div>
+                    <div class="text-content">
+                        Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the
+                        mperial Hotel, designed by Frank Lloyd Wright.
                     </div>
                 </div>
-                <div class="group-items group-items-down">
-                    <div class="content">
-                        <div class="triangle">
-                            <svg viewBox="0 0 26 30">
-                                <polygon points="0, 0 15, 26 30, 0" />
-                            </svg>
-                        </div>                
-                        <div class="year">1945</div>
-                        <div class="text-content">
-                                Start of sanitary ware production.
-                        </div>
-                    </div>
-                    <div class="image">
-                        <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
-                    </div>
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
                 </div>
-                <div class="group-items group-items-up">
-                        <div class="image">
-                            <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
-                        </div>
-                        <div class="content">
-                            <div class="triangle">
-                                <svg viewBox="0 0 26 30">
-                                    <polygon points="0, 26 15, 0 30, 26" />
-                                </svg>
-                            </div>                
-                            <div class="year">1989</div>
-                            <div class="text-content">
-                                    Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the mperial Hotel, designed by Frank Lloyd Wright.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="group-items group-items-down">
-                        <div class="content">
-                            <div class="triangle">
-                                <svg viewBox="0 0 26 30">
-                                    <polygon points="0, 0 15, 26 30, 0" />
-                                </svg>
-                            </div>                
-                            <div class="year">1989</div>
-                            <div class="text-content">
-                                    Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the mperial Hotel, designed by Frank Lloyd Wright.
-                            </div>
-                        </div>
-                        <div class="image">
-                            <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
-                        </div>
-                    </div><div class="group-items group-items-up">
-                            <div class="image">
-                                <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
-                            </div>
-                            <div class="content">
-                                <div class="triangle">
-                                    <svg viewBox="0 0 26 30">
-                                        <polygon points="0, 26 15, 0 30, 26" />
-                                    </svg>
-                                </div>                
-                                <div class="year">1989</div>
-                                <div class="text-content">
-                                    aAppointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the mperial Hotel, designed by Frank Lloyd Wright.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="group-items group-items-down">
-                            <div class="content">
-                                <div class="triangle">
-                                    <svg viewBox="0 0 26 30">
-                                        <polygon points="0, 0 15, 26 30, 0" />
-                                    </svg>
-                                </div>                
-                                <div class="year">1989</div>
-                                <div class="text-content">
-                                        Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the mperial Hotel, designed by Frank Lloyd Wright.
-                                </div>
-                            </div>
-                            <div class="image">
-                                <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
-                            </div>
-                        </div><div class="group-items group-items-up">
-                                <div class="image">
-                                    <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
-                                </div>
-                                <div class="content">
-                                    <div class="triangle">
-                                        <svg viewBox="0 0 26 30">
-                                            <polygon points="0, 26 15, 0 30, 26" />
-                                        </svg>
-                                    </div>                
-                                    <div class="year">1989</div>
-                                    <div class="text-content">
-                                            Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the mperial Hotel, designed by Frank Lloyd Wright.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="group-items group-items-down">
-                                <div class="content">
-                                    <div class="triangle">
-                                        <svg viewBox="0 0 26 30">
-                                            <polygon points="0, 0 15, 26 30, 0" />
-                                        </svg>
-                                    </div>                
-                                    <div class="year">1989</div>
-                                    <div class="text-content">
-                                            Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the mperial Hotel, designed by Frank Lloyd Wright.
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
-                                </div>
-                            </div><div class="group-items group-items-up">
-                                    <div class="image">
-                                        <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
-                                    </div>
-                                    <div class="content">
-                                        <div class="triangle">
-                                            <svg viewBox="0 0 26 30">
-                                                <polygon points="0, 26 15, 0 30, 26" />
-                                            </svg>
-                                        </div>                
-                                        <div class="year">1989</div>
-                                        <div class="text-content">
-                                                Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the mperial Hotel, designed by Frank Lloyd Wright.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="group-items group-items-down">
-                                    <div class="content">
-                                        <div class="triangle">
-                                            <svg viewBox="0 0 26 30">
-                                                <polygon points="0, 0 15, 26 30, 0" />
-                                            </svg>
-                                        </div>                
-                                        <div class="year">1989</div>
-                                        <div class="text-content">
-                                                Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the mperial Hotel, designed by Frank Lloyd Wright.
-                                        </div>
-                                    </div>
-                                    <div class="image">
-                                        <img src="assets/img/img2.jpg"/ width="100%" height="235px"> 
-                                    </div>
-                                </div>
             </div>
-        </div>
-        <div class="row one">
-            <div class="element element-one">
-                <div class="content withtext one-one">
-                    <div class="text">
-                        Thẩm mỹ &
-                        công năng
+            <div class="group-items group-items-up">
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
+                </div>
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 26 15, 0 30, 26"/>
+                        </svg>
+                    </div>
+                    <div class="year">1989</div>
+                    <div class="text-content">
+                        aAppointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the
+                        mperial Hotel, designed by Frank Lloyd Wright.
                     </div>
                 </div>
-                <div class="content withtext one-two">
+            </div>
+            <div class="group-items group-items-down">
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 0 15, 26 30, 0"/>
+                        </svg>
+                    </div>
+                    <div class="year">1989</div>
+                    <div class="text-content">
+                        Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the
+                        mperial Hotel, designed by Frank Lloyd Wright.
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
+                </div>
+            </div>
+            <div class="group-items group-items-up">
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
+                </div>
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 26 15, 0 30, 26"/>
+                        </svg>
+                    </div>
+                    <div class="year">1989</div>
+                    <div class="text-content">
+                        Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the
+                        mperial Hotel, designed by Frank Lloyd Wright.
+                    </div>
+                </div>
+            </div>
+            <div class="group-items group-items-down">
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 0 15, 26 30, 0"/>
+                        </svg>
+                    </div>
+                    <div class="year">1989</div>
+                    <div class="text-content">
+                        Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the
+                        mperial Hotel, designed by Frank Lloyd Wright.
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
+                </div>
+            </div>
+            <div class="group-items group-items-up">
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
+                </div>
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 26 15, 0 30, 26"/>
+                        </svg>
+                    </div>
+                    <div class="year">1989</div>
+                    <div class="text-content">
+                        Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the
+                        mperial Hotel, designed by Frank Lloyd Wright.
+                    </div>
+                </div>
+            </div>
+            <div class="group-items group-items-down">
+                <div class="content">
+                    <div class="triangle">
+                        <svg viewBox="0 0 26 30">
+                            <polygon points="0, 0 15, 26 30, 0"/>
+                        </svg>
+                    </div>
+                    <div class="year">1989</div>
+                    <div class="text-content">
+                        Appointment of Hatsunojo and Chozaburo Ina as technical advisors to produce the tiles for the
+                        mperial Hotel, designed by Frank Lloyd Wright.
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="assets/img/img2.jpg"/ width="100%" height="235px">
                 </div>
             </div>
         </div>
-        <div class="row two">
-            <div class="absolute-role absolute-role-one">
-                <div class="content withtext two-one">
-                    <div class="text">
-                        Gạch ngoại thất của chúng tôi 
-                        có thể chống chịu được các tác 
-                        động của thời tiết và là vật liệu 
-                        vượt trội để hoàn thiện bất kì 
-                        công trình kiến trúc đô thị nào, 
-                        tạo vẻ ngoài tươi đẹp và bền 
-                        vững mãi mãi với thời gian.
+    </div>
+    <div class="row one">
+        <div class="element element-one">
+            <div class="content withtext one-one">
+                <div class="text">
+                    Thẩm mỹ &
+                    công năng
+                </div>
+            </div>
+            <div class="content withtext one-two">
+            </div>
+        </div>
+    </div>
+    <div class="row two">
+        <div class="absolute-role absolute-role-one">
+            <div class="content withtext two-one">
+                <div class="text">
+                    Gạch ngoại thất của chúng tôi
+                    có thể chống chịu được các tác
+                    động của thời tiết và là vật liệu
+                    vượt trội để hoàn thiện bất kì
+                    công trình kiến trúc đô thị nào,
+                    tạo vẻ ngoài tươi đẹp và bền
+                    vững mãi mãi với thời gian.
+                </div>
+            </div>
+            <div class="image-top">
+                <img src="assets/img/img5.jpg" alt="" width="100%" height="100%"/>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row three">
+        <div class="element element-two">
+            <div class="content withtext three-one">
+                <div class="text">
+                    LIXIL
+                </div>
+            </div>
+            <div class="content withtext three-two">
+                <div class="text">
+                    Lixil Việt Nam, nhà cung cấp hàng đầu về
+                    các sản phẩm thiết bị vệ sinh, gạch kiến
+                    trúc INAX, đã không ngừng nghiên cứu, áp
+                    dụng các công nghệ tiên tiến trên thế giới,
+                    các giải pháp tiết kiệm năng lượng và thân
+                    thiện với môi trường, nhằm phục vụ thiết
+                    thực cho cuộc sống người dân Việt Nam.
+                </div>
+                <div class="image-top">
+                    <img src="assets/img/img6.jpg" alt="" width="100%" height="100%"/>
+                </div>
+            </div>
+
+            <div class="content withtext three-three">
+                <div class="image-top">
+                    <img src="assets/img/img6.jpg" alt="" width="100%" height="100%"/>
+                </div>
+            </div>
+            <div class="content withtext three-four">
+                <div class="left-lixil downz">
+                    <div class="center-panel-down">LIXIL</div>
+                </div>
+                <div class="center">
+
+                </div>
+                <div class="left-lixil topz">
+                    <div class="center-panel-down">LIXIL</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row four">
+        <div class="absolute-role absolute-role-two">
+            <div class="content withtext four-one">
+                <div class="box-slogan">
+                    <div class="logo-top">
+                        LIXIL
+                    </div>
+                    <div class="logo-bottom">
+                        Vì cuộc sống tốt đẹp hơn
+                    </div>
+                    <div class="symbol">
+                        <i class="fa fa-quote-left"></i>
                     </div>
                 </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row five">
+        <div class="absolute-role absolute-role-three">
+            <div class="content withtext five-one">
+                <div class="box-five">
+                    <div class="text text-one">
+                        Tính năng xanh
+                    </div>
+                    <div class="text text-two">
+                        Các sản phẩm của Lixil Việt Nam
+                        còn luôn vượt trội với những tính
+                        năng xanh trong việc tiết kiệm
+                        năng lượng, gần gũi thiên nhiên
+                        và bảo vệ môi trường.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row six">
+        <div class="element element-three">
+            <div class="content withtext six-one"></div>
+            <div class="content withtext six-two">
                 <div class="image-top">
                     <img src="assets/img/img5.jpg" alt="" width="100%" height="100%"/>
                 </div>
             </div>
-        </div>
-        <div class="clearfix"></div>
-        <div class="row three">
-            <div class="element element-two">
-                <div class="content withtext three-one">
-                    <div class="text">
-                        LIXIL
-                    </div>
-                </div>
-                <div class="content withtext three-two">
-                    <div class="text">
-                        Lixil Việt Nam, nhà cung cấp hàng đầu về 
-                        các sản phẩm thiết bị vệ sinh, gạch kiến 
-                        trúc INAX, đã không ngừng nghiên cứu, áp 
-                        dụng các công nghệ tiên tiến trên thế giới, 
-                        các giải pháp tiết kiệm năng lượng và thân 
-                        thiện với môi trường, nhằm phục vụ thiết 
-                        thực cho cuộc sống người dân Việt Nam.
-                    </div>
+
+            <div class="content withtext six-three">
+                <div class="six-three-one">
                     <div class="image-top">
-                        <img src="assets/img/img6.jpg" alt="" width="100%" height="100%"/>
+                        <img src="assets/img/img5.jpg" alt="" width="100%" height="100%"/>
                     </div>
                 </div>
-                
-                <div class="content withtext three-three">
-                    <div class="image-top">
-                        <img src="assets/img/img6.jpg" alt="" width="100%" height="100%"/>
+                <div class="six-three-two">
+                    <div class="content left-lixil downz">
+                        <div class="center-panel-down">LIXIL</div>
+                    </div>
+                    <div class="center">
+
+                    </div>
+                    <div class="content left-lixil topz">
+                        <div class="center-panel-down">LIXIL</div>
                     </div>
                 </div>
-                <div class="content withtext three-four">
-                        <div class="left-lixil downz">
-                            <div class="center-panel-down">LIXIL</div>
-                        </div>
-                        <div class="center">
-                                
+                <div class="six-three-three">
+                    <div class="box-text-address">
+                        <div class="title-box">Văn phòng đại điện</div>
+                        <div class="addresses-detail">
+                            <div class="text text-bold text-extra-color address">
+                                Hà Nội
                             </div>
-                        <div class="left-lixil topz">
-                            <div class="center-panel-down">LIXIL</div>
+                            <div class="text text-extra-color address-detail">
+                                <div class="row">
+                                    <div class="symbol">
+                                        <i class="fa fa-map-marker"></i>
+                                    </div>
+                                    <div class="text">
+                                        Tầng 18, Tòa nhà Charmvit Tower, 117
+                                        Trần Duy Hưng, Q.Cầu Giấy, TP. Hà Nội
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="symbol">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <div class="text">
+                                        (84-4) 3556 6153; 3556 6639
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="symbol">
+                                        <i class="fa fa-fax"></i>
+                                    </div>
+                                    <div class="text">
+                                        (84-4) 3556 6031
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row four">
-                <div class="absolute-role absolute-role-two">
-                    <div class="content withtext four-one">
-                        <div class="box-slogan">
-                            <div class="logo-top">
-                                LIXIL
-                            </div>
-                            <div class="logo-bottom">
-                                Vì cuộc sống tốt đẹp hơn
-                            </div>
-                            <div class="symbol">
-                                <i class="fa fa-quote-left"></i>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
+    </div>
+</section>
+<footer>
+    <div class="top-footer">
+        <div class="social-network">
+            <ul class="list-icon">
+                <li><a href="facebook.com"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li><a href="google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="logo-footer">
+            <a href="index.html"><img src="assets/img/Logo-color.svg" alt=""></a>
+        </div>
+        <div class="copy-right">
+            <p>Copyright &copy LIXIL International Ltd. All rights reserved.</p>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <div class="container-footer first-container">
+            <div class="nav-footer">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="tech.html">Công nghệ</a></li>
+                    <li><a href="news.html">Tin tức</a></li>
+                    <li><a href="about.html">Giới thiệu</a></li>
+                </ul>
             </div>
-            <div class="row five">
-                    <div class="absolute-role absolute-role-three">
-                        <div class="content withtext five-one">
-                            <div class="box-five">
-                                <div class="text text-one">
-                                    Tính năng xanh
-                                </div>
-                                <div class="text text-two">
-                                        Các sản phẩm của Lixil Việt Nam
-                                        còn luôn vượt trội với những tính 
-                                        năng xanh trong việc tiết kiệm 
-                                        năng lượng, gần gũi thiên nhiên 
-                                        và bảo vệ môi trường.
-                                </div>
-                            </div>
-                            
-                        </div>
-                </div>
+            <div class="products">
+                <h3 class="title-footer">Sản phẩm</h3>
+                <ul class="footer-list">
+                    <li><a href="product.html">Giải pháp gạch hồ bơi</a></li>
+                    <li><a href="product.html">Sản phẩm mới</a></li>
+                    <li><a href="product.html">Gạch trong nước</a></li>
+                    <li><a href="product.html">Gạch nhập khẩu Nhật Bản</a></li>
+                    <li><a href="product.html">Tất cả</a></li>
+                </ul>
             </div>
-            <div class="row six">
-                <div class="element element-three">
-                    <div class="content withtext six-one"></div>
-                    <div class="content withtext six-two">
-                        <div class="image-top">
-                            <img src="assets/img/img5.jpg" alt="" width="100%" height="100%"/>
-                        </div>
-                    </div>
-                    
-                    <div class="content withtext six-three">
-                            <div class="six-three-one">
-                                <div class="image-top">
-                                    <img src="assets/img/img5.jpg" alt="" width="100%" height="100%"/>
-                                </div>
-                            </div>
-                            <div class="six-three-two">
-                                    <div class="content left-lixil downz">
-                                        <div class="center-panel-down">LIXIL</div>
-                                    </div>
-                                    <div class="center">
-                            
-                                    </div>
-                                    <div class="content left-lixil topz">
-                                        <div class="center-panel-down">LIXIL</div>
-                                    </div>
-                            </div>
-                            <div class="six-three-three">
-                                <div class="box-text-address">
-                                    <div class="title-box">Văn phòng đại điện</div>
-                                    <div class="addresses-detail">
-                                        <div class="text text-bold text-extra-color address">
-                                            Hà Nội
-                                        </div>
-                                        <div class="text text-extra-color address-detail">
-                                            <div class="row">
-                                                <div class="symbol">
-                                                    <i class="fa fa-map-marker"></i>
-                                                </div>
-                                                <div class="text">
-                                                        Tầng 18, Tòa nhà Charmvit Tower, 117
-                                                        Trần Duy Hưng, Q.Cầu Giấy, TP. Hà Nội
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="symbol">
-                                                    <i class="fa fa-phone"></i>
-                                                </div>
-                                                <div class="text">
-                                                        (84-4) 3556 6153; 3556 6639
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="symbol">
-                                                        <i class="fa fa-fax"></i>
-                                                </div>
-                                                <div class="text">
-                                                        (84-4) 3556 6031
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>  
-    </section>
-        <footer>
-            <div class="top-footer col-12">
-                <div class="social-network col-4">
-                    <ul class="list-icon">
-                        <li><a href="facebook.com"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                        <li><a href="youtube.com"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                        <li><a href="google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-                <div class="logo-footer col-4">
-                    <a href="index.html"><img src="assets/img/Logo-color.svg" alt=""></a>
-                </div>
-                <div class="copy-right col-4">
-                    <p>Copyright &copy LIXIL International Ltd. All rights reserved.</p>
-                </div>
+        </div>
+        <div class="container-footer">
+            <div class="consultation">
+                <h3 class="title-footer">Thư viện tham khảo</h3>
+                <ul class="footer-list">
+                    <li><a href="gallery.html">Dự án tham khảo</a></li>
+                    <li><a href="gallery.html">Video tham khảo</a></li>
+                    <li><a href="gallery.html">Gạch INAX cho giếng trời</a></li>
+                </ul>
             </div>
-            <div class="bottom-footer col-12">
-                <div class="nav-footer col-2 col-s-6">
-                    <ul>
-                        <li><a href="index.html">Trang chủ</a></li>
-                        <li><a href="tech.html">Công nghệ</a></li>
-                        <li><a href="news.html">Tin tức</a></li>
-                    </ul>
-                </div>
-                <div class="products col-2 col-s-6">
-                    <h3 class="title-footer">Sản phẩm</h3>
-                    <ul class="footer-list">
-                        <li><a href="product.html">Giải pháp gạch hồ bơi</a></li>
-                        <li><a href="product.html">Sản phẩm mới</a></li>
-                        <li><a href="product.html">Gạch trong nước</a></li>
-                        <li><a href="product.html">Gạch nhập khẩu Nhật Bản</a></li>
-                        <li><a href="product.html">Tất cả</a></li>
-                    </ul>
-                </div>
-                <div class="consultation col-2 col-s-6">
-                    <h3 class="title-footer">Thư viện tham khảo</h3>
-                    <ul class="footer-list">
-                        <li><a href="gallery.html">Dự án tham khảo</a></li>
-                        <li><a href="gallery.html">Video tham khảo</a></li>
-                        <li><a href="gallery.html">Gạch INAX cho giếng trời</a></li>
-                    </ul>
-                </div>
-                <div class="distribution-system col-2 col-s-6">
-                    <h3 class="title-footer">Hệ thống phân phối</h3>
-                    <ul class="footer-list">
-                        <li><a href="distributor.html">Cửa hàng bán lẻ</a></li>
-                        <li><a href="distributor.html">Showroom</a></li>
-                        <li><a href="distributor.html">Đại lý khu vực</a></li>
-                    </ul>
-                </div>
-                <div class="documents col-2 col-s-6">
-                    <h3 class="title-footer">Tài liệu</h3>
-                    <ul class="footer-list">
-                        <li><a href="document-catalogue.html">Catalogue</a></li>
-                        <li><a href="document-photo.html">Ảnh chất lượng cao</a></li>
-                        <li><a href="document-guide.html">Tài liệu HDSD</a></li>
-                    </ul>
-                </div>
-                <div class="hot-line col-1 col-s-6">
-                    <h3 class="title-footer">Hotline</h3>
-                    <span>1800 6633</span>
-                </div>
+            <div class="distribution-system">
+                <h3 class="title-footer">Hệ thống phân phối</h3>
+                <ul class="footer-list">
+                    <li><a href="distributor.html">Cửa hàng bán lẻ</a></li>
+                    <li><a href="distributor.html">Showroom</a></li>
+                    <li><a href="distributor.html">Đại lý khu vực</a></li>
+                </ul>
             </div>
-        </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/lightgallery-all.min.js"></script>
-    <script src="assets/js/lightslider.js"></script>
-    <script src="assets/js/scripts.js"></script>
+        </div>
+        <div class="container-footer">
+            <div class="documents">
+                <h3 class="title-footer">Tài liệu</h3>
+                <ul class="footer-list">
+                    <li><a href="document-catalogue.html">Catalogue</a></li>
+                    <li><a href="document-photo.html">Ảnh chất lượng cao</a></li>
+                    <li><a href="document-guide.html">Tài liệu HDSD</a></li>
+                </ul>
+            </div>
+            <div class="hot-line">
+                <h3 class="title-footer">Hotline</h3>
+                <span>1800 6633</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/lightgallery-all.min.js"></script>
+<script src="assets/js/lightslider.js"></script>
+<script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
