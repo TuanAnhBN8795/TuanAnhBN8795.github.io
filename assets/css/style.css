@@ -2823,11 +2823,15 @@ body .container-tech {
   background-color: #3b3b3b;
   font-family: 'Roboto', serif; }
   body .container-tech .view-box .bottom-view-box {
-    background: linear-gradient(to top, black, rgba(255, 0, 0, 0)); }
+    background: linear-gradient(to top, black, rgba(255, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
     body .container-tech .view-box .bottom-view-box p {
       color: #ffffff; }
   body .container-tech .view-box {
-    background-size: cover; }
+    background-size: cover;
+    position: relative; }
   body .container-tech .header-page {
     display: -ms-flexbox;
     display: flex;
