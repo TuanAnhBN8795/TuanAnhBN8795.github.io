@@ -601,7 +601,8 @@ body header.common-header {
   position: absolute;
   z-index: 5;
   top: 0;
-  left: 0; }
+  left: 0;
+  background-color: #2b2b2b; }
   body header.common-header .main-nav, body header.common-header .sm-main-nav {
     width: 100%;
     display: -ms-flexbox;
