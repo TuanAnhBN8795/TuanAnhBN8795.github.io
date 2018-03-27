@@ -336,6 +336,14 @@ ul {
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.4); }
   .view-box .top-view-box {
     height: 30rem; }
+  .view-box .t-des {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-height: 18px;
+    max-height: 160px;
+    word-spacing: normal; }
   .view-box .bottom-view-box {
     transition-duration: 1s; }
     .view-box .bottom-view-box .title-view-box {
@@ -352,7 +360,8 @@ ul {
       display: flex;
       -ms-flex-pack: justify;
           justify-content: space-between;
-      padding: 15px 40px; }
+      padding: 15px 40px;
+      height: 3.5rem; }
       .view-box .bottom-view-box .info-view-box .type-view-box {
         width: 72%;
         transition-duration: 1s;
@@ -2828,13 +2837,8 @@ body .container-tech {
   padding: 30px 70px;
   background-color: #3b3b3b;
   font-family: 'Roboto', serif; }
-  body .container-tech .view-box .bottom-view-box {
-    background: linear-gradient(to top, black, rgba(255, 0, 0, 0));
-    position: absolute;
-    bottom: 0;
-    width: 100%; }
-    body .container-tech .view-box .bottom-view-box p {
-      color: #ffffff; }
+  body .container-tech .view-box .bottom-view-box p {
+    color: #ffffff; }
   body .container-tech .view-box {
     background-size: cover;
     position: relative; }
@@ -2850,26 +2854,44 @@ body .container-tech {
         padding-right: 150px; }
     body .container-tech .header-page .right-layout {
       width: 50%; }
-  body .container-tech .contents-page .tech-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    padding-top: 30px; }
-    body .container-tech .contents-page .tech-row .tech-box-1 {
-      background-image: url(../img/tech1.png); }
-    body .container-tech .contents-page .tech-row .tech-box-2 {
-      background-image: url(../img/tech2.png); }
-    body .container-tech .contents-page .tech-row .tech-box-3 {
-      background-image: url(../img/tech3.png); }
-    body .container-tech .contents-page .tech-row .tech-box-4 {
-      background-image: url(../img/tech4.png); }
-    body .container-tech .contents-page .tech-row .tech-box-5 {
-      background-image: url(../img/tech5.png); }
-    body .container-tech .contents-page .tech-row .tech-box-6 {
-      background-image: url(../img/bg-sm6.jpg); }
+  body .container-tech .contents-page {
+    width: 1200px;
+    margin: auto; }
+    body .container-tech .contents-page .tech-row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      body .container-tech .contents-page .tech-row .tech-box {
+        width: 370px;
+        margin-top: 30px; }
+      body .container-tech .contents-page .tech-row .tech-wrapper {
+        width: 33.33%;
+        -ms-flex: 0 0 33.33%;
+            flex: 0 0 33.33%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+            justify-content: center; }
+      body .container-tech .contents-page .tech-row .title-view-box {
+        height: 400px;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; }
+        body .container-tech .contents-page .tech-row .title-view-box .t-title {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          background: linear-gradient(to top, black, rgba(255, 0, 0, 0));
+          transition: all 0.2s ease-in; }
+          body .container-tech .contents-page .tech-row .title-view-box .t-title a {
+            display: block;
+            padding: 15px 40px;
+            color: #fff;
+            font-size: 1.5rem; }
+          body .container-tech .contents-page .tech-row .title-view-box .t-title:hover {
+            background: rgba(59, 59, 59, 0.52); }
   body .container-tech .footer-container {
     padding: 20px 0;
     padding-top: 40px;
