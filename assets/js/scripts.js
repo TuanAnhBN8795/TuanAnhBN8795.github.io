@@ -108,6 +108,18 @@ $(document).ready(function(){
             }
         ]
     });
+
+    $('.slide-slick-type3').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed:500,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        nextArrow: '<button type="button" class="button-circle-slide-type3"><i class="fa fa-angle-right"></i></button>',
+        prevArrow: '<button type="button" class="button-circle-slide-type3"><i class="fa fa-angle-left"></i></button>',
+    });
   });
 
 $( window ).resize(function() {
