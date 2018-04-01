@@ -1717,40 +1717,23 @@ body .home-session6 {
       body .home-session2 .right-layout .bottom-layout {
         height: 350px; }
   body .home-session3 .top-layout .left-layout, body .home-session4 .top-layout .left-layout {
-    width: 100%; }
+    width: 98%; }
     body .home-session3 .top-layout .left-layout .content, body .home-session4 .top-layout .left-layout .content {
-      padding-left: 16%;
-      padding-top: 10%; }
+      padding-top: 10%;
+      padding-left: 17%; }
       body .home-session3 .top-layout .left-layout .content h1, body .home-session4 .top-layout .left-layout .content h1 {
         font-size: 30px; }
   body .home-session3 .top-layout .right-layout, body .home-session4 .top-layout .right-layout {
     width: 100%; }
-    body .home-session3 .top-layout .right-layout .frame, body .home-session4 .top-layout .right-layout .frame {
-      width: 80%;
-      padding-top: 20%; }
-    body .home-session3 .top-layout .right-layout .picture, body .home-session4 .top-layout .right-layout .picture {
-      position: absolute;
-      top: 24%;
-      right: 0;
-      width: 84%; }
   body .home-session3 .bottom-layout .right-layout, body .home-session4 .bottom-layout .right-layout {
-    width: 100%; }
+    width: 98%; }
     body .home-session3 .bottom-layout .right-layout .content, body .home-session4 .bottom-layout .right-layout .content {
-      padding-left: 16%;
-      padding-top: 10%; }
+      padding-top: 10%;
+      padding-left: 17%; }
       body .home-session3 .bottom-layout .right-layout .content h1, body .home-session4 .bottom-layout .right-layout .content h1 {
-        font-size: 30px;
-        padding-right: 12%; }
+        font-size: 30px; }
   body .home-session3 .bottom-layout .left-layout, body .home-session4 .bottom-layout .left-layout {
-    width: 100%;
-    position: relative; }
-    body .home-session3 .bottom-layout .left-layout .frame, body .home-session4 .bottom-layout .left-layout .frame {
-      width: 80%; }
-    body .home-session3 .bottom-layout .left-layout .picture, body .home-session4 .bottom-layout .left-layout .picture {
-      position: absolute;
-      top: 7%;
-      left: 0;
-      width: 84%; }
+    width: 100%; }
   body .home-session5 {
     padding: 0; }
     body .home-session5 .left-layout {
@@ -1880,7 +1863,6 @@ body .home-session6 {
   body .home-session3 .top-layout .left-layout, body .home-session4 .top-layout .left-layout {
     width: 100%; }
     body .home-session3 .top-layout .left-layout .content, body .home-session4 .top-layout .left-layout .content {
-      padding-left: 16%;
       padding-top: 10%; }
       body .home-session3 .top-layout .left-layout .content h1, body .home-session4 .top-layout .left-layout .content h1 {
         font-size: 40px; }
@@ -1889,23 +1871,15 @@ body .home-session6 {
     body .home-session3 .top-layout .right-layout .frame, body .home-session4 .top-layout .right-layout .frame {
       padding-top: 0; }
     body .home-session3 .top-layout .right-layout .picture, body .home-session4 .top-layout .right-layout .picture {
-      top: 5%; }
+      top: 3%; }
   body .home-session3 .bottom-layout .right-layout, body .home-session4 .bottom-layout .right-layout {
     width: 100%; }
     body .home-session3 .bottom-layout .right-layout .content, body .home-session4 .bottom-layout .right-layout .content {
-      padding-left: 16%;
       padding-top: 10%; }
       body .home-session3 .bottom-layout .right-layout .content h1, body .home-session4 .bottom-layout .right-layout .content h1 {
-        font-size: 40px;
-        padding-right: 12%; }
+        font-size: 40px; }
   body .home-session3 .bottom-layout .left-layout, body .home-session4 .bottom-layout .left-layout {
     width: 100%; }
-    body .home-session3 .bottom-layout .left-layout .frame, body .home-session4 .bottom-layout .left-layout .frame {
-      width: 80%; }
-    body .home-session3 .bottom-layout .left-layout .picture, body .home-session4 .bottom-layout .left-layout .picture {
-      top: 7%;
-      left: 0;
-      width: 84%; }
   body .home-session5 {
     padding: 0; }
     body .home-session5 .left-layout {
