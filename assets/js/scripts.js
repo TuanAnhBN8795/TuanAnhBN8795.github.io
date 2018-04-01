@@ -120,6 +120,16 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="button-circle-slide-type3"><i class="fa fa-angle-right"></i></button>',
         prevArrow: '<button type="button" class="button-circle-slide-type3"><i class="fa fa-angle-left"></i></button>',
     });
+
+    //scroll event
+    // GENERAL SETTING
+    window.sr = ScrollReveal({ reset: true });
+
+// Custom Settings
+    sr.reveal('.demo-scroll', {
+        origin: 'right',
+        duration: 4000
+    });
   });
 
 $( window ).resize(function() {

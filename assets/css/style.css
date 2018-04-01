@@ -1031,7 +1031,7 @@ body header.about-header {
       border-bottom: none; }
       body header.home-page-header .sm-main-nav .button-header {
         padding-right: 10px;
-        padding-top: 30px; }
+        padding-top: 15px; }
         body header.home-page-header .sm-main-nav .button-header i {
           padding: 16px;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
@@ -1343,23 +1343,10 @@ body .home-session1 {
       left: 0; }
       body .home-session1 .first-layout .bottom-layout .left-bottom {
         width: 50%;
-        padding-top: 12%;
+        padding-top: 58px;
         padding-left: 19%; }
         body .home-session1 .first-layout .bottom-layout .left-bottom img {
           width: 85px; }
-      body .home-session1 .first-layout .bottom-layout .right-bottom {
-        width: 50%;
-        display: -ms-flexbox;
-        display: flex;
-        padding-top: 13%;
-        padding-left: 75px; }
-        body .home-session1 .first-layout .bottom-layout .right-bottom .small-point {
-          width: 9px;
-          height: 9px;
-          margin-left: 9px;
-          background-color: #5D5D5D; }
-        body .home-session1 .first-layout .bottom-layout .right-bottom .color-point {
-          background-color: #e75a0c; }
       body .home-session1 .first-layout .bottom-layout .btn-session1 {
         position: absolute;
         top: -25px;
@@ -1386,7 +1373,6 @@ body .home-session2 {
           color: #e75a0c; }
         body .home-session2 .left-layout .bottom-layout .container h1 {
           font-size: 45px;
-          font-weight: normal;
           margin-bottom: 15px; }
         body .home-session2 .left-layout .bottom-layout .container .contents {
           padding-right: 60px;
@@ -1430,11 +1416,9 @@ body .home-session2 {
           height: 235px;
           background-position: center;
           background-size: cover;
-          background-repeat: no-repeat;
-          transition: all 2s ease-in; }
+          background-repeat: no-repeat; }
           body .home-session2 .right-layout .middle-layout .history-box .image:hover {
-            background-size: 130%;
-            transition: all 2s ease-in; }
+            background-size: 130%; }
         body .home-session2 .right-layout .middle-layout .history-box .arrow-next {
           right: 25%;
           background-color: #ffffff !important;
@@ -1453,12 +1437,6 @@ body .home-session2 {
             border-color: #e75a0c !important; }
     body .home-session2 .right-layout .bottom-layout {
       height: 520px; }
-
-body .home-session3 {
-  background-image: url(../img/bg1.jpg); }
-
-body .home-session4 {
-  background-image: url(../img/bg2.jpg); }
 
 body .home-session3, body .home-session4 {
   height: auto;
@@ -1479,7 +1457,6 @@ body .home-session3, body .home-session4 {
         padding-top: 40%; }
         body .home-session3 .top-layout .left-layout .content h1, body .home-session4 .top-layout .left-layout .content h1 {
           font-size: 45px;
-          font-weight: normal;
           margin-bottom: 20px; }
         body .home-session3 .top-layout .left-layout .content p, body .home-session4 .top-layout .left-layout .content p {
           margin-bottom: 40px;
@@ -1511,7 +1488,6 @@ body .home-session3, body .home-session4 {
         padding-top: 20%; }
         body .home-session3 .bottom-layout .right-layout .content h1, body .home-session4 .bottom-layout .right-layout .content h1 {
           font-size: 45px;
-          font-weight: normal;
           margin-bottom: 20px;
           padding-right: 12%; }
         body .home-session3 .bottom-layout .right-layout .content p, body .home-session4 .bottom-layout .right-layout .content p {
@@ -1526,13 +1502,12 @@ body .home-session3, body .home-session4 {
         width: 80%; }
       body .home-session3 .bottom-layout .left-layout .picture, body .home-session4 .bottom-layout .left-layout .picture {
         position: absolute;
-        top: 7%;
+        top: 3%;
         left: 0;
         width: 84%; }
 
 body .home-session5 {
   font-family: 'Roboto', serif;
-  background-image: url(../img/bg5.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 30px;
@@ -1544,10 +1519,12 @@ body .home-session5 {
   body .home-session5 .left-layout {
     width: 40%; }
     body .home-session5 .left-layout .contents-session {
-      padding: 24%; }
+      padding-top: 24%;
+      padding-bottom: 24%;
+      padding-left: 16%;
+      padding-right: 20%; }
       body .home-session5 .left-layout .contents-session h1 {
         font-size: 45px;
-        font-weight: normal;
         margin-bottom: 20px; }
       body .home-session5 .left-layout .contents-session p {
         padding-left: 30px;
@@ -1586,10 +1563,10 @@ body .home-session5 {
           body .home-session5 .right-layout .container .box:hover p {
             color: #000000; }
       body .home-session5 .right-layout .container .end-box {
-        text-align: center;
-        padding-top: 13%; }
+        text-align: center; }
         body .home-session5 .right-layout .container .end-box a p {
-          padding: 0; }
+          padding: 0;
+          padding-top: 40%; }
         body .home-session5 .right-layout .container .end-box:hover {
           background-color: #ffffff; }
 
@@ -1603,42 +1580,49 @@ body .home-session6 {
       justify-content: space-around;
   background-color: #3b3b3b;
   color: #ffffff;
-  padding: 30px; }
+  padding: 80px 65px; }
   body .home-session6 .left-layout, body .home-session6 .middle-layout {
     width: 30%;
-    padding-top: 20%;
     background-size: 100%;
     background-repeat: no-repeat; }
     body .home-session6 .left-layout .content-session, body .home-session6 .middle-layout .content-session {
-      padding-bottom: 18px; }
-      body .home-session6 .left-layout .content-session p, body .home-session6 .middle-layout .content-session p {
-        font-weight: bold;
-        padding-left: 30px; }
-    body .home-session6 .left-layout .bottom-session, body .home-session6 .middle-layout .bottom-session {
-      display: -ms-flexbox;
-      display: flex;
-      padding: 15px 0;
-      border-top: 1px solid #ffffff; }
-      body .home-session6 .left-layout .bottom-session .title-bottom, body .home-session6 .middle-layout .bottom-session .title-bottom {
-        width: 50%;
-        font-size: 12px;
-        padding-left: 30px; }
-      body .home-session6 .left-layout .bottom-session .date-bottom, body .home-session6 .middle-layout .bottom-session .date-bottom {
-        width: 50%;
-        font-size: 12px;
-        text-align: right;
-        padding-right: 30px; }
-  body .home-session6 .left-layout {
-    background-image: url(../img/bg6.jpg); }
-  body .home-session6 .middle-layout {
-    background-image: url(../img/bg7.jpg); }
+      padding-top: 58%; }
+      body .home-session6 .left-layout .content-session .top-session, body .home-session6 .middle-layout .content-session .top-session {
+        padding-bottom: 5%;
+        padding-top: 5%;
+        transition-duration: 0.8s; }
+        body .home-session6 .left-layout .content-session .top-session p, body .home-session6 .middle-layout .content-session .top-session p {
+          font-weight: bold;
+          padding-left: 30px;
+          color: #ffffff; }
+      body .home-session6 .left-layout .content-session .bottom-session, body .home-session6 .middle-layout .content-session .bottom-session {
+        display: -ms-flexbox;
+        display: flex;
+        padding: 15px 0;
+        border-top: 1px solid #ffffff;
+        transition-duration: 0.8s; }
+        body .home-session6 .left-layout .content-session .bottom-session .title-bottom, body .home-session6 .middle-layout .content-session .bottom-session .title-bottom {
+          width: 50%;
+          font-size: 12px;
+          padding-left: 30px;
+          color: #B3B3B3; }
+        body .home-session6 .left-layout .content-session .bottom-session .date-bottom, body .home-session6 .middle-layout .content-session .bottom-session .date-bottom {
+          width: 50%;
+          font-size: 12px;
+          text-align: right;
+          padding-right: 30px;
+          color: #B3B3B3; }
+    body .home-session6 .left-layout:hover .top-session, body .home-session6 .left-layout:hover .bottom-session, body .home-session6 .middle-layout:hover .top-session, body .home-session6 .middle-layout:hover .bottom-session {
+      background-color: rgba(0, 0, 0, 0.3); }
   body .home-session6 .right-layout {
-    width: 30%; }
+    width: 30%;
+    position: relative; }
     body .home-session6 .right-layout .content {
-      padding-top: 100px;
+      position: absolute;
+      bottom: 12px;
+      left: 0;
       padding-left: 40px; }
       body .home-session6 .right-layout .content h1 {
-        font-weight: normal;
         font-size: 45px;
         margin-bottom: 20px; }
       body .home-session6 .right-layout .content p {
@@ -1649,46 +1633,45 @@ body .home-session6 {
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   body .home-session1 .first-layout .slick-dots {
-    left: 5%; }
-  body .home-session1 .left-layout .top-layout .content1 h1 {
+    left: 42px;
+    bottom: 0; }
+  body .home-session1 .first-layout .logo-home-page img {
+    width: 50px; }
+  body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content1 h1 {
     font-size: 20px; }
-  body .home-session1 .left-layout .top-layout .content2 {
+  body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 {
     display: block;
     padding-left: 18%;
     padding-top: 30px; }
-    body .home-session1 .left-layout .top-layout .content2 .left-content2 {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 .left-content2 {
       width: 100%; }
-      body .home-session1 .left-layout .top-layout .content2 .left-content2 .text {
+      body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 .left-content2 .text {
         padding-bottom: 20px; }
-    body .home-session1 .left-layout .top-layout .content2 .right-content2 {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 .right-content2 {
       display: none; }
-  body .home-session1 .left-layout .bottom-layout {
+  body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout {
     display: block; }
-    body .home-session1 .left-layout .bottom-layout .left-bottom {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .left-bottom {
       width: 100%;
       padding-left: 20px; }
-      body .home-session1 .left-layout .bottom-layout .left-bottom img {
+      body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .left-bottom img {
         width: 85px; }
-    body .home-session1 .left-layout .bottom-layout .right-bottom {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .right-bottom {
       width: 100%;
       padding-left: 25%; }
-    body .home-session1 .left-layout .bottom-layout .btn-session1 {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .btn-session1 {
       top: 0;
       right: -90px; }
-  body .home-session1 .right-layout .language {
-    top: 60px; }
-  body .home-session1 .first-layout .logo-home-page img {
-    width: 50px; }
+  body .home-session1 .first-layout .slide-top .group-items-homepage .right-layout {
+    height: 380px; }
   body .home-session1 .first-layout .bottom-layout {
     display: block; }
     body .home-session1 .first-layout .bottom-layout .left-bottom {
       width: 100%;
-      padding-left: 20px; }
+      padding-left: 20px;
+      padding-top: 10px; }
       body .home-session1 .first-layout .bottom-layout .left-bottom img {
         width: 85px; }
-    body .home-session1 .first-layout .bottom-layout .right-bottom {
-      width: 100%;
-      padding-left: 25%; }
     body .home-session1 .first-layout .bottom-layout .btn-session1 {
       top: 0;
       right: -90px; }
@@ -1788,13 +1771,17 @@ body .home-session6 {
             justify-content: space-around; }
         body .home-session5 .right-layout .container .box {
           width: 32%;
-          border: 1px solid #ffffff; }
+          border: 1px solid #ffffff;
+          text-align: center; }
           body .home-session5 .right-layout .container .box p {
-            padding-left: 5px;
+            padding-left: 0;
             padding-top: 5px;
-            padding-bottom: 20%; }
+            padding-bottom: 20%;
+            font-size: 12px; }
           body .home-session5 .right-layout .container .box i {
-            margin-left: 30%; }
+            margin-left: 0; }
+        body .home-session5 .right-layout .container .end-box a p {
+          padding-top: 50%; }
   body .home-session6 {
     background-color: #333333;
     padding: 30px; }
@@ -1804,47 +1791,46 @@ body .home-session6 {
     body .home-session6 .right-layout {
       width: 100%; }
       body .home-session6 .right-layout .content {
+        position: relative;
         padding-top: 50px; }
         body .home-session6 .right-layout .content h1 {
           font-size: 30px; } }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   body .home-session1 .first-layout .slick-dots {
-    left: 12%; }
-  body .home-session1 .left-layout .top-layout .content1 h1 {
+    left: 15%;
+    bottom: 10px; }
+  body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content1 h1 {
     font-size: 20px; }
-  body .home-session1 .left-layout .top-layout .content2 {
+  body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 {
     display: block;
     padding-left: 18%;
     padding-top: 30px;
     padding-bottom: 30px; }
-    body .home-session1 .left-layout .top-layout .content2 .left-content2 {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 .left-content2 {
       width: 100%; }
-      body .home-session1 .left-layout .top-layout .content2 .left-content2 .text {
+      body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 .left-content2 .text {
         padding-bottom: 20px; }
-    body .home-session1 .left-layout .top-layout .content2 .right-content2 {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 .right-content2 {
       width: 100%; }
-  body .home-session1 .left-layout .bottom-layout {
+  body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout {
     display: block; }
-    body .home-session1 .left-layout .bottom-layout .left-bottom {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .left-bottom {
       width: 100%;
       padding-left: 35%; }
-      body .home-session1 .left-layout .bottom-layout .left-bottom img {
+      body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .left-bottom img {
         width: 85px; }
-    body .home-session1 .left-layout .bottom-layout .right-bottom {
-      width: 100%;
-      padding-left: 38%;
-      padding-top: 20px; }
-    body .home-session1 .left-layout .bottom-layout .btn-session1 {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .btn-session1 {
       top: -20;
       right: -40px; }
-  body .home-session1 .right-layout .language {
-    top: 20px; }
+  body .home-session1 .first-layout .slide-top .group-items-homepage .right-layout {
+    height: 650px; }
   body .home-session1 .first-layout .bottom-layout {
     display: block; }
     body .home-session1 .first-layout .bottom-layout .left-bottom {
       width: 100%;
-      padding-left: 35%; }
+      padding-left: 35%;
+      padding-top: 35px; }
       body .home-session1 .first-layout .bottom-layout .left-bottom img {
         width: 85px; }
     body .home-session1 .first-layout .bottom-layout .right-bottom {
@@ -1860,8 +1846,8 @@ body .home-session6 {
     body .home-session2 .left-layout .top-layout {
       height: 70%; }
     body .home-session2 .left-layout .bottom-layout .container {
-      padding: 20px;
-      width: 200%; }
+      padding: 85px;
+      width: 180%; }
       body .home-session2 .left-layout .bottom-layout .container h1 {
         font-size: 30px; }
       body .home-session2 .left-layout .bottom-layout .container .contents {
@@ -1958,43 +1944,46 @@ body .home-session6 {
     body .home-session6 .right-layout {
       width: 100%; }
       body .home-session6 .right-layout .content {
+        position: relative;
         padding-top: 50px; }
         body .home-session6 .right-layout .content h1 {
           font-size: 40px; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   body .home-session1 .first-layout .slick-dots {
-    left: 20%;
-    bottom: 68px; }
-  body .home-session1 .left-layout .top-layout .content2 {
+    left: 20%; }
+  body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 {
     display: block;
     padding-left: 18%;
     padding-top: 30px;
     padding-bottom: 30px; }
-    body .home-session1 .left-layout .top-layout .content2 .left-content2 {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 .left-content2 {
       width: 100%; }
-      body .home-session1 .left-layout .top-layout .content2 .left-content2 .text {
+      body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 .left-content2 .text {
         padding-bottom: 20px; }
-    body .home-session1 .left-layout .top-layout .content2 .right-content2 {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .top-layout .content2 .right-content2 {
       width: 100%; }
-  body .home-session1 .left-layout .bottom-layout {
+  body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout {
     display: block; }
-    body .home-session1 .left-layout .bottom-layout .left-bottom {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .left-bottom {
       width: 100%;
       padding-left: 35%; }
-      body .home-session1 .left-layout .bottom-layout .left-bottom img {
+      body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .left-bottom img {
         width: 85px; }
-    body .home-session1 .left-layout .bottom-layout .right-bottom {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .right-bottom {
       width: 100%;
       padding-left: 38%;
       padding-top: 20px; }
-    body .home-session1 .left-layout .bottom-layout .btn-session1 {
+    body .home-session1 .first-layout .slide-top .group-items-homepage .left-layout .bottom-layout .btn-session1 {
       top: -20;
       right: -40px; }
-  body .home-session1 .right-layout .language {
-    top: 20px; }
   body .home-session2 .left-layout .bottom-layout .container {
     padding: 75px 80px; }
+  body .home-session2 .right-layout .top-layout .layout-1 p {
+    font-size: 13px; }
+  body .home-session2 .right-layout .top-layout .layout-2 {
+    padding: 0 40px;
+    padding-top: 30px; }
   body .home-session2 .right-layout .middle-layout {
     height: 350px; }
     body .home-session2 .right-layout .middle-layout .history-box {
@@ -2004,11 +1993,13 @@ body .home-session6 {
   body .home-session3 .bottom-layout .right-layout .content h1, body .home-session4 .bottom-layout .right-layout .content h1 {
     font-size: 40px; }
   body .home-session5 {
-    padding: 15px 30px; }
+    padding: 30px; }
     body .home-session5 .right-layout .container .box p {
-      padding-bottom: 45%; }
-  body .home-session6 .left-layout, body .home-session6 .middle-layout {
-    padding-top: 18%; }
+      padding-bottom: 30%; }
+  body .home-session6 .left-layout .bottom-session, body .home-session6 .middle-layout .bottom-session {
+    padding: 7px 0; }
+  body .home-session6 .left-layout .content-session, body .home-session6 .middle-layout .content-session {
+    padding-top: 53%; }
   body .home-session6 .right-layout .content {
     padding-top: 70px; }
     body .home-session6 .right-layout .content h1 {
