@@ -16,8 +16,8 @@
 </head>
 
 <body>
-<header class="common-header" id="my-header">
-    <div class="main-nav" id="main-nav">
+<header class="common-header" id="my-navbar">
+    <div class="header-nav" id="header-nav">
         <div class="logo-header">
             <a href="index.html"><img src="assets/img/Logo.svg"></a>
         </div>
@@ -29,7 +29,7 @@
             <i class="fa fa-bars" id="open-navbar"></i>
         </div>
     </div>
-    <div class="container-nav" id="my-nav">
+    <div class="container-nav" id="container-nav" style="background-image: url(assets/img/bg8.jpg)">
         <div class="nav-session-1">
             <div class="top-layout">
                 <img src="assets/img/logo3.svg" alt="">
@@ -43,219 +43,259 @@
         </div>
         <div class="nav-session-2">
             <ul class="layout1">
-                <a href="index.html">
-                    <li class="tab-layout1" id="home-tab">
-                        Trang chủ
-                        <ul class="layout2" id="home-tab-show">
-                            <li class="tab-layout2 just-have-contents" id="home-page-introduce">
-                                <p>Chào mừng quý khách đến với thế giới Gạch kiến trúc INAX</p>
-                                <p>INAX là một thương hiệu của Lixil, với hơn 94 năm kinh nghiệm và hiện đang là nhà sản
-                                    xuất
-                                    gạch số 1 tại Nhật bản</p>
+                <li class="tab-layout1" id="home-tab">
+                    <a href="index.html">
+                        <div class="wrapper">
+                            Trang chủ
+                            <ul class="layout2" id="home-tab-show">
+                                <li class="tab-layout2" id="home-page-introduce">
+                                    <p style="margin-bottom: 20px">Chào mừng quý khách đến với thế giới Gạch kiến trúc
+                                        INAX</p>
+                                    <p>INAX là một thương hiệu của Lixil, với hơn 94 năm kinh nghiệm và hiện đang là nhà
+                                        sản
+                                        xuất gạch số 1 tại Nhật bản</p>
+                                </li>
+                            </ul>
+                            <div class="image-show" id="home-img"
+                                 style="background-image: url(assets/img/bg9.jpg)"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="tab-layout1" id="product-tab">
+                    <div class="wrapper">
+                        <div class="have-children">
+                            <div class="text-session"><p>Sản phẩm</p></div>
+                            <div class="circle-session"><i class="fa fa-circle"></i></div>
+                        </div>
+                        <ul class="layout2" id="product-tab-show">
+                            <li class="tab-layout2" id="ecocarat-tab">
+                                <a href="product.html">
+                                    <p class="item-hover-1">Ecocarat</p>
+                                </a>
+                            </li>
+                            <li class="tab-layout2" id="gach-ho-boi-tab">
+                                <a href="product.html">
+                                    <p class="item-hover-1">Giải pháp gạch hồ bơi</p>
+                                </a>
+                            </li>
+                            <li class="tab-layout2" id="new-product-tab">
+                                <a href="product.html">
+                                    <p class="item-hover-1">Sản phẩm mới</p>
+                                </a>
+                            </li>
+                            <li class="tab-layout2" id="internal-tile-tab">
+                                <p class="item-hover-1">Gạch trong nước</p>
+                                <ul class="layout3" id="internal-tile-tab-show">
+                                    <li class="tab-layout3">
+                                        <a href="product.html">
+                                            <p class="item-hover-2">Checker</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab-layout3">
+                                        <a href="product.html">
+                                            <p class="item-hover-2">CMG-Cool Mist Glass</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab-layout3">
+                                        <a href="product.html">
+                                            <p class="item-hover-2">Kaiha</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab-layout3">
+                                        <a href="product.html">
+                                            <p class="item-hover-2">R-Border</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab-layout3">
+                                        <a href="product.html">
+                                            <p class="item-hover-2">EAC - Earth Color Border</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab-layout3">
+                                        <a href="product.html">
+                                            <p class="item-hover-2">255/Viz Color</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab-layout3">
+                                        <a href="product.html">
+                                            <p class="item-hover-2">355/Viz Color</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab-layout3">
+                                        <a href="product.html">
+                                            <p class="item-hover-2">Paste Plain - Color</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab-layout3">
+                                        <a href="product.html">
+                                            <p class="item-hover-2">SLC - SHINJYU Luster Color</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="tab-layout2" id="japan-tile-tab">
+                                <a href="product.html">
+                                    <p class="item-hover-1">Gạch nhập khẩu Nhật Bản</p>
+                                </a>
+                            </li>
+                            <li class="tab-layout2" id="all-products-tab">
+                                <a href="product.html">
+                                    <p class="item-hover-1">Tất cả sản phẩm</p>
+                                </a>
                             </li>
                         </ul>
-                        <div class="image-show" id="home-img">
-                            <img src="assets/img/bg9.jpg">
-                        </div>
-                    </li>
-                </a>
-                <li class="tab-layout1" id="product-tab">
-                    <div class="have-children">
-                        <div class="text-session"><p>Sản phẩm</p></div>
-                        <div><span class="circle"></span></div>
                     </div>
-                    <ul class="layout2 have-list" id="product-tab-show">
-                        <li class="tab-layout2" id="ecocarat-tab">
-                            <a href="product.html">
-                                <p class="item-hover-1">Ecocarat</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="gach-ho-boi-tab">
-                            <a href="product.html">
-                                <p class="item-hover-1">Giải pháp gạch hồ bơi</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="new-product-tab">
-                            <a href="product.html">
-                                <p class="item-hover-1">Sản phẩm mới</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="internal-tile-tab">
-                            <p class="item-hover-1">Gạch trong nước</p>
-                            <ul class="layout3" id="internal-tile-tab-show">
-                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">
-                                    Checker</p></a></li>
-                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">CMG-Cool
-                                    Mist Glass</p></a></li>
-                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">Kaiha</p>
-                                </a></li>
-                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">
-                                    R-Border</p></a></li>
-                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">EAC -
-                                    Earth Color Border</p></a></li>
-                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">255/Viz
-                                    Color</p></a></li>
-                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">355/Viz
-                                    Color</p></a></li>
-                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">Paste
-                                    Plain - Color</p></a></li>
-                                <li class="tab-layout3"><a href="product-detail.html"><p class="item-hover-2">SLC -
-                                    SHINJYU Luster Color</p></a></li>
-                            </ul>
-                        </li>
-                        <li class="tab-layout2" id="japan-tile-tab">
-                            <a href="product.html">
-                                <p class="item-hover-1">Gạch nhập khẩu Nhật Bản</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="all-products-tab">
-                            <a href="product.html">
-                                <p class="item-hover-1">Tất cả sản phẩm</p>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
                 <li class="tab-layout1" id="tech-tab">
-                    <div class="have-children">
-                        <div class="text-session"><p>Công nghệ</p></div>
-                        <div><span class="circle"></span></div>
-                    </div>
-                    <ul class="layout2 have-list" id="tech-tab-show">
-                        <li class="tab-layout2" id="tech-ecocarat-tab">
-                            <a href="tech-detail.html">
-                                <p class="item-hover-1">Công nghệ ECOCARAT</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="tech-micro-guard-tab">
-                            <a href="tech-detail.html">
-                                <p class="item-hover-1">Công nghệ MICROGURAD</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="tech-luster-tab">
-                            <a href="tech-detail.html">
-                                <p class="item-hover-1">Công nghệ Luster</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="tech-gach-goc-tab">
-                            <a href="tech-detail.html">
-                                <p class="item-hover-1">Công nghệ gạch góc</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="tech-chan-gach-tab">
-                            <a href="tech-detail.html">
-                                <p class="item-hover-1">Công nghệ chân gạch (đuôi cá) của INAX</p>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="image-show" id="tech-img">
-                        <img src="assets/img/bg9.jpg">
-                    </div>
+                    <a href="tech.html">
+                        <div class="wrapper">
+                            <div class="have-children">
+                                <div class="text-session"><p>Công nghệ</p></div>
+                                <div class="circle-session"><i class="fa fa-circle"></i></div>
+                            </div>
+                            <ul class="layout2" id="tech-tab-show">
+                                <li class="tab-layout2" id="tech-ecocarat-tab">
+                                    <a href="tech-detail.html">
+                                        <p class="item-hover-1">Công nghệ ECOCARAT</p>
+                                    </a>
+                                </li>
+                                <li class="tab-layout2" id="tech-micro-guard-tab">
+                                    <a href="tech-detail.html">
+                                        <p class="item-hover-1">Công nghệ MICROGURAD</p>
+                                    </a>
+                                </li>
+                                <li class="tab-layout2" id="tech-luster-tab">
+                                    <a href="tech-detail.html">
+                                        <p class="item-hover-1">Công nghệ Luster</p>
+                                    </a>
+                                </li>
+                                <li class="tab-layout2" id="tech-gach-goc-tab">
+                                    <a href="tech-detail.html">
+                                        <p class="item-hover-1">Công nghệ gạch góc</p>
+                                    </a>
+                                </li>
+                                <li class="tab-layout2" id="tech-chan-gach-tab">
+                                    <a href="tech-detail.html">
+                                        <p class="item-hover-1">Công nghệ chân gạch (đuôi cá) của INAX</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="image-show" id="tech-img"
+                                 style="background-image: url(assets/img/bg-sm2.jpg)"></div>
+                        </div>
+                    </a>
                 </li>
                 <li class="tab-layout1" id="reference-library-tab">
-                    <div class="have-children">
-                        <div class="text-session"><p>Thư viện tham khảo</p></div>
-                        <div><span class="circle"></span></div>
-                    </div>
-                    <ul class="layout2 have-list" id="reference-library-tab-show">
-                        <li class="tab-layout2" id="reference-project-tab">
-                            <a href="gallery.html">
-                                <p class="item-hover-1">Dự án tham khảo</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="reference-video-tab">
-                            <a href="gallery.html">
-                                <p class="item-hover-1">Video tham khảo</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="gach-gieng-troi-tab">
-                            <a href="gallery.html">
-                                <p class="item-hover-1">Gạch INAX cho giếng trời</p>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="image-show" id="library-img">
-                        <img src="assets/img/bg9.jpg">
-                    </div>
-                </li>
-                <a href="prototype.html">
-                    <li class="tab-layout1" id="phoi-mau-gach-tab">
-                        Mô phỏng thực tế
-                        <ul class="layout2" id="phoi-mau-gach-tab-show">
-                            <li class="tab-layout2 just-have-contents" id="phoi-mau-gach-introduce">
-                                <p>Tự tay chọn lựa mẫu gạch nội thất ưng ý với công nghệ tự phối mẫu gạch của INAX</p>
+                    <div class="wrapper">
+                        <div class="have-children">
+                            <div class="text-session"><p>Thư viện tham khảo</p></div>
+                            <div class="circle-session"><i class="fa fa-circle"></i></div>
+                        </div>
+                        <ul class="layout2" id="reference-library-tab-show">
+                            <li class="tab-layout2" id="reference-project-tab">
+                                <a href="gallery.html">
+                                    <p class="item-hover-1">Dự án tham khảo</p>
+                                </a>
+                            </li>
+                            <li class="tab-layout2" id="reference-video-tab">
+                                <a href="gallery.html">
+                                    <p class="item-hover-1">Video tham khảo</p>
+                                </a>
+                            </li>
+                            <li class="tab-layout2" id="gach-gieng-troi-tab">
+                                <a href="gallery.html">
+                                    <p class="item-hover-1">Gạch INAX cho giếng trời</p>
+                                </a>
                             </li>
                         </ul>
-                        <div class="image-show" id="phoi-mau-gach-img">
-                            <img src="assets/img/bg9.jpg">
+                        <div class="image-show" id="lib-img" style="background-image: url(assets/img/bg9.jpg)"></div>
+                    </div>
+                </li>
+                <li class="tab-layout1" id="phoi-mau-gach-tab">
+                    <a href="prototype.html">
+                        <div class="wrapper">
+                            Mô phỏng thực tế
+                            <ul class="layout2" id="phoi-mau-gach-tab-show">
+                                <li class="tab-layout2" id="phoi-mau-gach-introduce">
+                                    <p>Tự tay chọn lựa mẫu gạch nội thất ưng ý với công nghệ tự phối mẫu gạch của
+                                        INAX</p>
+                                </li>
+                            </ul>
+                            <div class="image-show" id="phoi-img"
+                                 style="background-image: url(assets/img/bg-sm2.jpg)"></div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
                 <li class="tab-layout1" id="system-distribution-tab">
-                    <div class="have-children">
-                        <div class="text-session"><p>Hệ thống phân phối</p></div>
-                        <div><span class="circle"></span></div>
-                    </div>
-                    <ul class="layout2 have-list" id="system-distribution-tab-show">
-                        <li class="tab-layout2" id="shop-tab">
-                            <a href="distributor.html">
-                                <p class="item-hover-1">Cửa hàng bán lẻ</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="show-room-tab">
-                            <a href="distributor.html">
-                                <p class="item-hover-1">Showroom</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="local-shop-tab">
-                            <a href="distributor.html">
-                                <p class="item-hover-1">Đại lý khu vực</p>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="image-show" id="system-img">
-                        <img src="assets/img/bg9.jpg">
-                    </div>
+                    <a href="distributor.html">
+                        <div class="wrapper">
+                            <div class="have-children">
+                                <div class="text-session"><p>Hệ thống phân phối</p></div>
+                                <div class="circle-session"><i class="fa fa-circle"></i></div>
+                            </div>
+                            <ul class="layout2" id="system-distribution-tab-show">
+                                <li class="tab-layout2" id="shop-tab">
+                                    <a href="distributor.html">
+                                        <p class="item-hover-1">Cửa hàng bán lẻ</p>
+                                    </a>
+                                </li>
+                                <li class="tab-layout2" id="show-room-tab">
+                                    <a href="distributor.html">
+                                        <p class="item-hover-1">Showroom</p>
+                                    </a>
+                                </li>
+                                <li class="tab-layout2" id="local-shop-tab">
+                                    <a href="distributor.html">
+                                        <p class="item-hover-1">Đại lý khu vực</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="image-show" id="distribution-img"
+                                 style="background-image: url(assets/img/bg9.jpg)"></div>
+                        </div>
+                    </a>
                 </li>
                 <li class="tab-layout1" id="document-tab">
-                    <div class="have-children">
-                        <div class="text-session"><p>Tài liệu</p></div>
-                        <div><span class="circle"></span></div>
-                    </div>
-                    <ul class="layout2 have-list" id="document-tab-show">
-                        <li class="tab-layout2" id="catalogue-tab">
-                            <a href="document-catalogue.html">
-                                <p class="item-hover-1">Catalogue</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="high-quality-photo-tab">
-                            <a href="document-photo.html">
-                                <p class="item-hover-1">Ảnh chất lượng cao</p>
-                            </a>
-                        </li>
-                        <li class="tab-layout2" id="document-introduce-tab">
-                            <a href="document-guide.html">
-                                <p class="item-hover-1">Tài liệu hướng dẫn sử dụng</p>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="image-show" id="document-img">
-                        <img src="assets/img/bg9.jpg">
-                    </div>
-                </li>
-                <a href="news.html">
-                    <li class="tab-layout1" id="new-feeds-tab">
-                        Tin tức
-                        <ul class="layout2" id="new-feeds-tab-show">
-                            <li class="tab-layout2 just-have-contents" id="new-feeds-introduce">
-                                <p>Luôn luôn cập nhật những tin tức chương trình khuyến mãi mới & hấp dẫn nhất tại
-                                    INAX</p>
+                    <div class="wrapper">
+                        <div class="have-children">
+                            <div class="text-session"><p>Tài liệu</p></div>
+                            <div class="circle-session"><i class="fa fa-circle"></i></div>
+                        </div>
+                        <ul class="layout2" id="document-tab-show">
+                            <li class="tab-layout2" id="catalogue-tab">
+                                <a href="document-catalogue.html">
+                                    <p class="item-hover-1">Catalogue</p>
+                                </a>
+                            </li>
+                            <li class="tab-layout2" id="high-quality-photo-tab">
+                                <a href="document-photo.html">
+                                    <p class="item-hover-1">Ảnh chất lượng cao</p>
+                                </a>
+                            </li>
+                            <li class="tab-layout2" id="document-introduce-tab">
+                                <a href="document-guide.html">
+                                    <p class="item-hover-1">Tài liệu hướng dẫn sử dụng</p>
+                                </a>
                             </li>
                         </ul>
-                        <div class="image-show" id="news-img">
-                            <img src="assets/img/bg9.jpg">
+                        <div class="image-show" id="doc-img" style="background-image: url(assets/img/bg-sm2.jpg)"></div>
+                    </div>
+                </li>
+                <li class="tab-layout1" id="new-feeds-tab">
+                    <a href="news.html">
+                        <div class="wrapper">
+                            Tin tức
+                            <ul class="layout2" id="new-feeds-tab-show">
+                                <li class="tab-layout2" id="new-feeds-introduce">
+                                    <p>Luôn luôn cập nhật những tin tức chương trình khuyến mãi mới & hấp dẫn nhất tại
+                                        INAX</p>
+                                </li>
+                            </ul>
+                            <div class="image-show" id="news-img"
+                                 style="background-image: url(assets/img/bg9.jpg)"></div>
                         </div>
-                    </li>
-                </a>
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="nav-session-3">
@@ -270,12 +310,18 @@
                 <div class="google"><a href="google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
             </div>
             <div class="globalsite-div">
-                <p>Globalsite</p>
+                <div class="globalsite-container">
+                    <a href="http://www.inaxtile.com">
+                        <img src="assets/img/global.svg">
+                        <p>Globalsite</p>
+                    </a>
+                </div>
+
             </div>
         </div>
     </div>
 
-    <div class="sm-main-nav" id="sm-main-nav">
+    <div class="sm-header-nav" id="sm-header-nav">
         <div class="logo-header">
             <a href="index.html"><img src="assets/img/Logo.svg"></a>
         </div>
@@ -287,7 +333,7 @@
             <i class="fa fa-bars" id="sm-open-navbar"></i>
         </div>
     </div>
-    <div class="sm-container-nav" id="sm-my-nav">
+    <div class="sm-container-nav" id="sm-container-nav">
         <ul class="layout1">
             <a href="index.html">
                 <li class="tab-layout1">
@@ -495,78 +541,105 @@
         </div>
     </div>
     <div class="contents-page">
-        <div class="tech-row">
-            <div class="tech-wrapper">
-                <div class="view-box tech-box">
-                    <div class="title-view-box" style="background-image: url(assets/img/tech1.png)">
-                        <div class="t-title">
-                            <a class="" href="tech-detail.html">Công nghệ Ecocarat</a>
+        <div class="view-box-row">
+            <div class="view-box-wrapper">
+                <div class="view-box" style="background-image: url(assets/img/tech1.png)">
+                    <div class="content-view-box">
+                        <div class="title-view-box" >
+                            <a href="tech-detail.html">Công nghệ Ecocarat</a>
                         </div>
-                    </div>
-                    <div class="bottom-view-box">
-                        <div class="info-view-box">
-                            <p class="t-des">ECOCARAT là kỹ thuật làm sạch không khí của sản phẩm gạch kiến trúc INAX. ECOCARAT là một vật liệu được tạo nên
-                                từ kiệt tác gốm sứ</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tech-wrapper">
-                <div class="view-box tech-box">
-                    <div class="title-view-box" style="background-image: url(assets/img/microguard.jpg)">
-                        <div class="t-title">
-                            <a class="" href="tech-detail.html">Công nghệ MICROGURAD</a>
-                        </div>
-                    </div>
-                    <div class="bottom-view-box">
-                        <div class="info-view-box">
-                            <p class="t-des">Công nghệ MICROGUARD ngăn chặn vết ố màu Công nghệ MICROGUARD tạo ra một lớp các phân tử nước phủ trên bề mặt
-                                gạch, ngăn chặn các vết bẩn lên trên ...</p>
+                        <div class="bottom-view-box">
+                            <div class="type-view-box">
+                                <p>Công nghệ</p>
+                            </div>
+                            <div class="date-view-box">
+                                <p>08/03/2018</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="tech-wrapper">
-                <div class="view-box tech-box">
-                    <div class="title-view-box" style="background-image: url(assets/img/luster.jpg)">
-                        <div class="t-title">
-                            <a class="" href="tech-detail.html">Công nghệ LUSTER</a>
+            <div class="view-box-wrapper">
+                <div class="view-box" style="background-image: url(assets/img/microguard.jpg)">
+                    <div class="content-view-box">
+                        <div class="title-view-box" >
+                            <a href="tech-detail.html">Công nghệ MICROGUARD</a>
                         </div>
-                    </div>
-                    <div class="bottom-view-box">
-                        <div class="info-view-box">
-                            <p class="t-des">Gạch Luster có màu kim loại nên có thể kết hợp hài hòa với các vật liệu khác như nhôm, kính. Công nghệ Luster
-                                giúp tạo cho công trình độ sang trọng.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tech-wrapper">
-                <div class="view-box tech-box">
-                    <div class="title-view-box" style="background-image: url(assets/img/gach-goc.jpg)">
-                        <div class="t-title">
-                            <a class="" href="tech-detail.html">Công nghệ gạch góc</a>
-                        </div>
-                    </div>
-                    <div class="bottom-view-box">
-                        <div class="info-view-box">
-                            <p class="t-des">Công nghệ này chỉ có ở LIXIL VIỆT NAM. Gạch góc có thể ngăn cản, không cho nước xâm nhập vào các góc của tường,
-                                giúp bảo vệ công trình, tránh tình trạng ...</p>
+                        <div class="bottom-view-box">
+                            <div class="type-view-box">
+                                <p>Công nghệ</p>
+                            </div>
+                            <div class="date-view-box">
+                                <p>08/03/2018</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="tech-wrapper">
-                <div class="view-box tech-box">
-                    <div class="title-view-box" style="background-image: url(assets/img/gach-duoi-ca.jpg)">
-                        <div class="t-title">
-                            <a class="" href="tech-detail.html">Công nghệ gạch đuôi cá</a>
+            <div class="view-box-wrapper">
+                <div class="view-box" style="background-image: url(assets/img/luster.jpg)">
+                    <div class="content-view-box">
+                        <div class="title-view-box" >
+                            <a href="tech-detail.html">Công nghệ Luster</a>
+                        </div>
+                        <div class="bottom-view-box">
+                            <div class="type-view-box">
+                                <p>Công nghệ</p>
+                            </div>
+                            <div class="date-view-box">
+                                <p>08/03/2018</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="bottom-view-box">
-                        <div class="info-view-box">
-                            <p class="t-des">Chân gạch dạng hình đuôi cá ngăn ngừa tình trạng gạch rơi, độ bám dính giữa chân gạch và lớp áo tường rất chắc.
-                                Được sản xuất theo công nghệ JIS ...</p>
+                </div>
+            </div>
+            <div class="view-box-wrapper">
+                <div class="view-box" style="background-image: url(assets/img/gach-goc.jpg)">
+                    <div class="content-view-box">
+                        <div class="title-view-box" >
+                            <a href="tech-detail.html">Công nghệ gạch góc</a>
+                        </div>
+                        <div class="bottom-view-box">
+                            <div class="type-view-box">
+                                <p>Công nghệ</p>
+                            </div>
+                            <div class="date-view-box">
+                                <p>08/03/2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-box-wrapper">
+                <div class="view-box" style="background-image: url(assets/img/gach-duoi-ca.jpg)">
+                    <div class="content-view-box">
+                        <div class="title-view-box" >
+                            <a href="tech-detail.html">Công nghệ gạch đuôi cá</a>
+                        </div>
+                        <div class="bottom-view-box">
+                            <div class="type-view-box">
+                                <p>Công nghệ</p>
+                            </div>
+                            <div class="date-view-box">
+                                <p>08/03/2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-box-wrapper">
+                <div class="view-box" style="background-image: url(assets/img/bg-sm4.jpg)">
+                    <div class="content-view-box">
+                        <div class="title-view-box" >
+                            <a href="tech-detail.html">Công nghệ gạch hồ bơi</a>
+                        </div>
+                        <div class="bottom-view-box">
+                            <div class="type-view-box">
+                                <p>Công nghệ</p>
+                            </div>
+                            <div class="date-view-box">
+                                <p>08/03/2018</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -574,7 +647,7 @@
         </div>
     </div>
     <div class="footer-container">
-        <a href="#" class="button-second">Tải lên</a>
+        <a href="#" class="button-second">Tải thêm</a>
     </div>
 </div>
 <footer>

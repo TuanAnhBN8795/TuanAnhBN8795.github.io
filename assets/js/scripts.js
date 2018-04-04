@@ -6,19 +6,49 @@ var roomSelected = 'guessroom';
 var producted = 'product1';
 var row = 1;
 var col = 1;
-var room = 'guess';
 var slider;
 $(document).ready(function(){
-    $('#my-navbar').css('display', 'none');
-    $('#my-nav').css('display', 'none');
-    $('#sm-my-nav').css('display', 'none');
+    $('#defaultOpen').click();
+
+    var containerNav = $('#container-nav');
+    var widthScreen = $(window).width();
+    var heightScreen = $(window).height();
+    containerNav.css('display', 'none');
+    $('#sm-container-nav').css('display', 'none');
     if($(window).width() <= 600){
-        $('#main-nav').css('display', 'none');
+        $('#header-nav').css('display', 'none');
+        $('#sm-header-nav').css('display', 'flex');
     }
     else {
-        $('#sm-main-nav').css('display', 'none');
+        $('#sm-header-nav').css('display', 'none');
+        $('#header-nav').css('display', 'flex');
     }
-    $('#myNav').css('width', '0%');
+
+    // Check height of screen
+    if(heightScreen > widthScreen && widthScreen > 600) {
+        containerNav.css('height', '50vh');
+        var wrapper = $('.nav-session-2 .wrapper');
+        var tabLayout1 = $('.nav-session-2 .tab-layout1');
+        var layout3 = $('.nav-session-2 .layout3');
+        var layout2 = $('.nav-session-2 .layout2');
+        var socialDiv = $('.nav-session-3 .social-div');
+        $('.wrapper .image-show').css('height', '50vh');
+        tabLayout1.css('padding-left', '10px');
+        wrapper.css('padding-top', '2vh');
+        socialDiv.css('margin-top', '10vh');
+        socialDiv.css('margin-bottom', '10vh');
+        layout2.css('height', '50vh');
+        layout3.css('height', '50vh');
+        $('#ecocarat-tab').css('padding-top', '8vh');
+        $('#tech-ecocarat-tab').css('padding-top', '10vh');
+        $('#home-page-introduce').css('padding-top', '14vh');
+        $('#reference-project-tab').css('padding-top', '17vh');
+        $('#phoi-mau-gach-introduce').css('padding-top', '19vh');
+        $('#shop-tab').css('padding-top', '16vh');
+        $('#catalogue-tab').css('padding-top', '16vh');
+        $('#news-feed-introduce').css('padding-top', '19vh');
+    }
+    // slide custom
     var sizeSlide = 5;
     sizeSlide = parseInt($('#slide-history').attr('size'));
     $('.slide-slick').slick({
@@ -91,8 +121,8 @@ $(document).ready(function(){
         infinite: false,
         slidesToShow: 4,
         slidesToScroll: 1,
-        nextArrow: '<button type="button" class="button-circle-slide-type1 arrow-next-slide-type1"><i class="fa fa-angle-right"></i></button>',
-        prevArrow: '<button type="button" class="button-circle-slide-type1 arrow-prev-slide-type1"><i class="fa fa-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="button-circle-slide-type2 arrow-next-slide-type2"><i class="fa fa-angle-right"></i></button>',
+        prevArrow: '<button type="button" class="button-circle-slide-type2 arrow-prev-slide-type2"><i class="fa fa-angle-left"></i></button>',
         responsive: [
             {
                 breakpoint: 980, // tablet breakpoint
@@ -125,7 +155,7 @@ $(document).ready(function(){
     // GENERAL SETTING
     window.sr = ScrollReveal({ reset: true });
 
-// Custom Settings
+    // Custom Settings
     sr.reveal('.demo-scroll', {
         origin: 'right',
         duration: 4000
@@ -134,30 +164,74 @@ $(document).ready(function(){
 
 $( window ).resize(function() {
     if($(window).width() <= 600){
-        $('#main-nav').css('display', 'none');
-        $('#sm-main-nav').css('display', 'flex');
-        $('#my-nav').css('display', 'none');
+        $('#header-nav').css('display', 'none');
+        $('#sm-header-nav').css('display', 'flex');
+        $('#sm-container-nav').css('display', 'none');
+        $('#container-nav').css('display', 'none');
     }
     else {
-        $('#sm-main-nav').css('display', 'none');
-        $('#main-nav').css('display', 'flex');
-        $('#sm-my-nav').css('display', 'none');
+        $('#sm-header-nav').css('display', 'none');
+        $('#header-nav').css('display', 'flex');
+        $('#sm-container-nav').css('display', 'none');
+        $('#container-nav').css('display', 'none');
+    }
+
+    var wrapper = $('.nav-session-2 .wrapper');
+    var tabLayout1 = $('.nav-session-2 .tab-layout1');
+    var layout3 = $('.nav-session-2 .layout3');
+    var layout2 = $('.nav-session-2 .layout2');
+    var socialDiv = $('.nav-session-3 .social-div');
+    if($(window).height() > $(window).width() && $(window).width() > 600) {
+        $('#container-nav').css('height', '50vh');
+        $('.wrapper .image-show').css('height', '50vh');
+        tabLayout1.css('padding-left', '10px');
+        wrapper.css('padding-top', '2vh');
+        socialDiv.css('margin-top', '10vh');
+        socialDiv.css('margin-bottom', '10vh');
+        layout2.css('height', '50vh');
+        layout3.css('height', '50vh');
+        $('#ecocarat-tab').css('padding-top', '8vh');
+        $('#tech-ecocarat-tab').css('padding-top', '10vh');
+        $('#home-page-introduce').css('padding-top', '14vh');
+        $('#reference-project-tab').css('padding-top', '17vh');
+        $('#phoi-mau-gach-introduce').css('padding-top', '19vh');
+        $('#shop-tab').css('padding-top', '16vh');
+        $('#catalogue-tab').css('padding-top', '16vh');
+        $('#news-feed-introduce').css('padding-top', '19vh');
+    }
+    else if($(window).height() < $(window).width()) {
+        $('#container-nav').css('height', '100vh');
+        $('.wrapper .image-show').css('height', '100vh');
+        tabLayout1.css('padding-left', '30px');
+        wrapper.css('padding-top', '4.5vh');
+        socialDiv.css('margin-top', '20vh');
+        socialDiv.css('margin-bottom', '30vh');
+        layout2.css('height', '100vh');
+        layout3.css('height', '100vh');
+        $('#ecocarat-tab').css('padding-top', '16vh');
+        $('#tech-ecocarat-tab').css('padding-top', '21vh');
+        $('#home-page-introduce').css('padding-top', '34vh');
+        $('#reference-project-tab').css('padding-top', '35vh');
+        $('#phoi-mau-gach-introduce').css('padding-top', '44vh');
+        $('#shop-tab').css('padding-top', '35vh');
+        $('#catalogue-tab').css('padding-top', '35vh');
+        $('#news-feed-introduce').css('padding-top', '44vh');
     }
 });
 
-$('#close-btn').click(function() {
-    $('#my-nav').css('display', 'none');
-    $('#main-nav').css('display', 'flex');
-});
+    $('#close-btn').click(function() {
+        $('#container-nav').css('display', 'none');
+        $('#header-nav').css('display', 'flex');
+    });
 
-$('#open-navbar').click(function() {
-    $('#my-nav').css('display', 'flex');
-    $('#main-nav').css('display', 'none');
-});
+    $('#open-navbar').click(function() {
+        $('#container-nav').css('display', 'flex');
+        $('#header-nav').css('display', 'none');
+    });
 
-$('#sm-open-navbar').click(function() {
-    $('#sm-my-nav').toggle();
-});
+    $('#sm-open-navbar').click(function() {
+        $('#sm-container-nav').toggle();
+    });
 
   $('.tech-box-prototype').click(function() {
       $('#'+idBrickSelected).removeClass('view-box-selected');
@@ -209,7 +283,7 @@ $('.button-nonfill').click(function() {
 });
 
 $('#dropdownClick').click(function() {
-    $('#duAnClick').toggleClass('show-content');
+    $(this).siblings('#duAnClick').toggleClass('show-content');
 });
 
 $(window).click(function(e) {
@@ -255,4 +329,21 @@ $('.doc-photo-box').click(function() {
 $('.close').click(function() {
     $('#myModal').css('display', 'none');
     slider.destroy();
+});
+
+$('.tablinks').click(function() {
+    var i, tabcontent, tablinks;
+    var selector;
+    tabcontent = $('.tabcontent');
+    for (i = 0; i < tabcontent.length; i++) {
+        $(tabcontent[i]).css('display', 'none');
+    }
+    var selector = $(this).data('selector');
+    $('#'+selector).css('display', 'block');
+
+    tablinks = $('.tablinks');
+    for (i = 0; i < tablinks.length; i++) {
+        $(tablinks[i]).removeClass('menu-selected');
+    }
+    $(this).addClass('menu-selected');
 });
