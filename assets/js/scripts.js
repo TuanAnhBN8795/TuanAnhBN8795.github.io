@@ -339,7 +339,7 @@ $('.tablinks').click(function() {
         $(tabcontent[i]).css('display', 'none');
     }
     var selector = $(this).data('selector');
-    $('#'+selector).css('display', 'block');
+    $('#'+selector).css('display', 'flex');
 
     tablinks = $('.tablinks');
     for (i = 0; i < tablinks.length; i++) {
@@ -347,3 +347,25 @@ $('.tablinks').click(function() {
     }
     $(this).addClass('menu-selected');
 });
+
+function initialize() {
+    var locationLatLng = {lat: 21.0081751, lng: 105.7978339};
+    var mapOptions = {
+        zoom: 15,
+        center: locationLatLng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var mapCanvas = document.createElement("div");
+    mapCanvas.id = "canvas";
+    mapCanvas.style.width = "100%";
+    mapCanvas.style.height = "450px"
+    $('#image-show-ggapi').append(mapCanvas);
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    var marker = new google.maps.Marker({
+        position: locationLatLng,
+        title: "Tòa nhà Charmvit Tower",
+      });
+      marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
