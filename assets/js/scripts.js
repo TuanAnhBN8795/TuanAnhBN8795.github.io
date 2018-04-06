@@ -314,6 +314,18 @@ $('.view-box-gallery').click(function() {
     });
 });
 
+$('.view-box-photo').click(function() {
+    $('#myModal').css('display', 'block');
+    slider = $('#light-slider').lightSlider({
+        gallery: true,
+        item: 1,
+        loop: true,
+        autoWidth: false,
+        slideMargin: 100,
+        thumbItem: 9
+    });
+});
+
 $('.doc-photo-box').click(function() {
     $('#myModal').css('display', 'block');
     slider = $('#light-slider').lightSlider({
