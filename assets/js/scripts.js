@@ -151,6 +151,18 @@ $(document).ready(function(){
         prevArrow: '<button type="button" class="button-circle-slide-type3"><i class="fa fa-angle-left"></i></button>',
     });
 
+    $('.slide-slick-type4').slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed:500,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        nextArrow: '<button type="button" class="button-circle-slide-type4"></i></button>',
+        prevArrow: '<button type="button" class="button-circle-slide-type4"></button>',
+    });
+
     //scroll event
     // GENERAL SETTING
     window.sr = ScrollReveal({ reset: true });

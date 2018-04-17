@@ -260,6 +260,9 @@ ul {
 .button-circle-slide-type3 {
   display: none !important; }
 
+.button-circle-slide-type4 {
+  display: none !important; }
+
 .arrow-next-slide-type1 {
   top: -54px;
   right: 12px; }
@@ -2381,6 +2384,7 @@ section.about-section {
               color: #E85A0C;
               font-size: 30px; }
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail {
+              width: 80%;
               padding: 0 20% 10% 10%;
               position: absolute;
               bottom: 0; }
