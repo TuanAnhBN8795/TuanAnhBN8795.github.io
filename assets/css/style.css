@@ -2385,9 +2385,24 @@ section.about-section {
               font-size: 30px; }
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail {
               width: 80%;
-              padding: 0 20% 10% 10%;
+              padding: 0 10% 5% 10%;
               position: absolute;
               bottom: 0; }
+              section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail .slick-dots li button {
+                width: 9px !important;
+                height: 9px !important;
+                padding: 0 !important;
+                border: 1px solid #888888 !important;
+                background-color: #888888 !important; }
+              section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail .slick-dots li button:before {
+                line-height: 9px !important;
+                width: 9px !important;
+                height: 9px !important;
+                color: #888888 !important; }
+              section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail .slick-dots li.slick-active button:before {
+                opacity: 1;
+                color: #e75a0c !important;
+                background-color: #e75a0c !important; }
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .row {
               display: -ms-flexbox;
               display: flex; }

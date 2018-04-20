@@ -152,7 +152,7 @@ $(document).ready(function(){
     });
 
     $('.slide-slick-type4').slick({
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
