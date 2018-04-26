@@ -339,7 +339,7 @@
                     <div class="sm-text">
                         Sản phẩm
                     </div>
-                    <div class="down-row">
+                    <div class="down-row" id="toggle-product-tab">
                         <i class="fa fa-angle-double-down"></i>
                     </div>
                 </div>
@@ -365,7 +365,7 @@
                             <div class="sm-text">
                                 <p>Gạch trong nước</p>
                             </div>
-                            <div class="down-row">
+                            <div class="down-row" id="toggle-internal-tab">
                                 <i class="fa fa-angle-double-down"></i>
                             </div>
                         </div>
@@ -396,9 +396,11 @@
             <li class="tab-layout1" id="sm-tech-tab">
                 <div class="sm-have-list">
                     <div class="sm-text">
-                        <p>Công nghệ</p>
+                        <a href="tech.html">
+                            <p>Công nghệ</p>
+                        </a>
                     </div>
-                    <div class="down-row">
+                    <div class="down-row" id="toggle-tech-tab">
                         <i class="fa fa-angle-double-down"></i>
                     </div>
                 </div>
@@ -435,7 +437,7 @@
                     <div class="sm-text">
                         <p>Thư viện tham khảo</p>
                     </div>
-                    <div class="down-row">
+                    <div class="down-row" id="toggle-lib-tab">
                         <i class="fa fa-angle-double-down"></i>
                     </div>
                 </div>
@@ -467,7 +469,7 @@
                     <div class="sm-text">
                         <p>Hệ thống phân phối</p>
                     </div>
-                    <div class="down-row">
+                    <div class="down-row" id="toggle-sys-tab">
                         <i class="fa fa-angle-double-down"></i>
                     </div>
                 </div>
@@ -494,7 +496,7 @@
                     <div class="sm-text">
                         <p>Tài liệu</p>
                     </div>
-                    <div class="down-row">
+                    <div class="down-row" id="toggle-doc-tab">
                         <i class="fa fa-angle-double-down"></i>
                     </div>
                 </div>
@@ -534,7 +536,6 @@
         </div>
         <did class="left-panel">
             <div id="image-show-ggapi">
-                
             </div>
         </did>
         <did class="right-panel">
@@ -568,11 +569,16 @@
                                     <span>Tỉnh/Thành</span>
                                 </div>
                                 <div class="action">
-                                    <span>---</span>
+                                    <div class="dropdown-container">
+                                        <div  class="dropdownClick dropdown dropdown-classic">---<i
+                                                class="fa fa-angle-down dropdown-i"></i></div>
+                                        <div class=" duAnClick dropdown-content">
+                                            <a href="#hanoi">Hà Nội</a>
+                                            <a href="#danang">Đà Nẵng</a>
+                                            <a href="#hochiminh">Hồ Chí Minh</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="dropdown">
-                                <i class="fa fa-angle-down"></i>
                             </div>
                         </div>
                         <div class="flex-box option-up-selection-container unit">
@@ -581,11 +587,16 @@
                                     <span>Đơn vị phân phối</span>
                                 </div>
                                 <div class="action">
-                                    <span>---</span>
+                                    <div class="dropdown-container">
+                                        <div  class="dropdownClick dropdown dropdown-classic">---<i
+                                                class="fa fa-angle-down dropdown-i"></i></div>
+                                        <div class=" duAnClick dropdown-content">
+                                            <a href="#daily1">Đại lý 1</a>
+                                            <a href="#daily2">Đại lý 2</a>
+                                            <a href="#daily3">Đại lý 3</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="dropdown">
-                                <i class="fa fa-angle-down"></i>
                             </div>
                         </div>
                         <div class="option-up-selection-container search-button">
@@ -597,7 +608,7 @@
                     <div class="option-down-title"><span>Kết quả tìm kiếm: 9 cửa hàng</span></div>
                     <div class="contents-page">
                         <div class="tech-row">
-                            <div class="view-box tech-box-1 tech-box-selected">
+                            <div class="view-box tech-box-1">
                                 <div class="top-view-box">
                                     <div class="addresses-detail">
                                         <div class="text text-bold text-extra-color address">
