@@ -2362,12 +2362,6 @@ section.about-section {
             height: 100%;
             position: relative; }
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .title-box {
-<<<<<<< HEAD
-              padding: 5% 20% 0 10%;
-              color: #5D5D5D;
-              position: absolute;
-              top: 0; }
-=======
               width: 80%;
               padding: 5% 10% 0 10%;
               color: #5D5D5D; }
@@ -2377,18 +2371,12 @@ section.about-section {
               overflow: hidden; }
               section.about-section .row .element-three .six-three .six-three-three .box-text-address .image-middle img {
                 object-fit: cover; }
->>>>>>> 5cf297acad13d097332e67fb70b1d0494f4afb43
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .text-extra-color {
               color: #5D5D5D; }
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .address {
               color: #E85A0C;
               font-size: 30px; }
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail {
-<<<<<<< HEAD
-              padding: 0 20% 10% 10%;
-              position: absolute;
-              bottom: 0; }
-=======
               width: 80%;
               padding: 0 10% 5% 10%;
               position: absolute;
@@ -2408,7 +2396,6 @@ section.about-section {
                 opacity: 1;
                 color: #e75a0c !important;
                 background-color: #e75a0c !important; }
->>>>>>> 5cf297acad13d097332e67fb70b1d0494f4afb43
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .row {
               display: -ms-flexbox;
               display: flex; }
@@ -2521,13 +2508,9 @@ section.about-section {
   section.about-section .row .element-three .six-three .six-three-two {
     height: 445px; }
     section.about-section .row .element-three .six-three .six-three-two .center {
-<<<<<<< HEAD
-      height: 444px; } }
-=======
       height: 444px; }
   section.about-section .row .element-three .six-three .six-three-three {
     padding-right: 5%; } }
->>>>>>> 5cf297acad13d097332e67fb70b1d0494f4afb43
 
 @media only screen and (max-width: 768px) {
   .about-top-layout .container .middle .left-inax .center-panel-down {

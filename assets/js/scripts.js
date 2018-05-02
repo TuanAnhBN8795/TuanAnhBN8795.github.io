@@ -151,8 +151,6 @@ $(document).ready(function(){
         prevArrow: '<button type="button" class="button-circle-slide-type3"><i class="fa fa-angle-left"></i></button>',
     });
 
-<<<<<<< HEAD
-=======
     $('.slide-slick-type4').slick({
         dots: true,
         infinite: true,
@@ -165,7 +163,6 @@ $(document).ready(function(){
         prevArrow: '<button type="button" class="button-circle-slide-type4"></button>',
     });
 
->>>>>>> 5cf297acad13d097332e67fb70b1d0494f4afb43
     //scroll event
     // GENERAL SETTING
     window.sr = ScrollReveal({ reset: true });
@@ -247,8 +244,6 @@ $( window ).resize(function() {
     $('#sm-open-navbar').click(function() {
         $('#sm-container-nav').toggle();
     });
-<<<<<<< HEAD
-=======
 
     // control mobile nav
     var smProduct = $('#sm-product-tab-show');
@@ -334,7 +329,6 @@ $( window ).resize(function() {
     $('#toggle-internal-tab').click(function() {
         $('#sm-internal-tiles-show').toggle();
     });
->>>>>>> 5cf297acad13d097332e67fb70b1d0494f4afb43
 
   $('.tech-box-prototype').click(function() {
       $('#'+idBrickSelected).removeClass('view-box-selected');
