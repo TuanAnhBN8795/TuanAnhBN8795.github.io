@@ -260,6 +260,9 @@ ul {
 .button-circle-slide-type3 {
   display: none !important; }
 
+.button-circle-slide-type4 {
+  display: none !important; }
+
 .arrow-next-slide-type1 {
   top: -54px;
   right: 12px; }
@@ -1128,18 +1131,6 @@ body header.about-page-header {
             body header.common-header .sm-container-nav .layout1 .tab-layout1 .layout2 .tab-layout2 .layout3 .tab-layout3 {
               background-color: #3b3b3b;
               padding-left: 40px; }
-        body header.common-header .sm-container-nav .layout1 .tab-layout1 .layout2 #sm-internal-tiles:hover #sm-internal-tiles-show {
-          display: block; }
-    body header.common-header .sm-container-nav .layout1 #sm-product-tab:hover #sm-product-tab-show {
-      display: block; }
-    body header.common-header .sm-container-nav .layout1 #sm-tech-tab:hover #sm-tech-tab-show {
-      display: block; }
-    body header.common-header .sm-container-nav .layout1 #sm-lib-tab:hover #sm-lib-tab-show {
-      display: block; }
-    body header.common-header .sm-container-nav .layout1 #sm-sys-tab:hover #sm-sys-tab-show {
-      display: block; }
-    body header.common-header .sm-container-nav .layout1 #sm-doc-tab:hover #sm-doc-tab-show {
-      display: block; }
   body header.home-page-header {
     background: none; }
     body header.home-page-header .sm-header-nav {
@@ -2371,19 +2362,53 @@ section.about-section {
             height: 100%;
             position: relative; }
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .title-box {
+<<<<<<< HEAD
               padding: 5% 20% 0 10%;
               color: #5D5D5D;
               position: absolute;
               top: 0; }
+=======
+              width: 80%;
+              padding: 5% 10% 0 10%;
+              color: #5D5D5D; }
+            section.about-section .row .element-three .six-three .six-three-three .box-text-address .image-middle {
+              width: 100%;
+              height: 40%;
+              overflow: hidden; }
+              section.about-section .row .element-three .six-three .six-three-three .box-text-address .image-middle img {
+                object-fit: cover; }
+>>>>>>> 5cf297acad13d097332e67fb70b1d0494f4afb43
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .text-extra-color {
               color: #5D5D5D; }
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .address {
               color: #E85A0C;
               font-size: 30px; }
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail {
+<<<<<<< HEAD
               padding: 0 20% 10% 10%;
               position: absolute;
               bottom: 0; }
+=======
+              width: 80%;
+              padding: 0 10% 5% 10%;
+              position: absolute;
+              bottom: 0; }
+              section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail .slick-dots li button {
+                width: 9px !important;
+                height: 9px !important;
+                padding: 0 !important;
+                border: 1px solid #888888 !important;
+                background-color: #888888 !important; }
+              section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail .slick-dots li button:before {
+                line-height: 9px !important;
+                width: 9px !important;
+                height: 9px !important;
+                color: #888888 !important; }
+              section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail .slick-dots li.slick-active button:before {
+                opacity: 1;
+                color: #e75a0c !important;
+                background-color: #e75a0c !important; }
+>>>>>>> 5cf297acad13d097332e67fb70b1d0494f4afb43
             section.about-section .row .element-three .six-three .six-three-three .box-text-address .row {
               display: -ms-flexbox;
               display: flex; }
@@ -2496,7 +2521,13 @@ section.about-section {
   section.about-section .row .element-three .six-three .six-three-two {
     height: 445px; }
     section.about-section .row .element-three .six-three .six-three-two .center {
+<<<<<<< HEAD
       height: 444px; } }
+=======
+      height: 444px; }
+  section.about-section .row .element-three .six-three .six-three-three {
+    padding-right: 5%; } }
+>>>>>>> 5cf297acad13d097332e67fb70b1d0494f4afb43
 
 @media only screen and (max-width: 768px) {
   .about-top-layout .container .middle .left-inax .center-panel-down {
@@ -2546,9 +2577,12 @@ section.about-section {
         -ms-transform: translate(25%, -45%) rotate(90deg);
             transform: translate(25%, -45%) rotate(90deg); }
     section.about-section .row .element-three .six-three .six-three-three {
-      height: 290px; }
+      height: 310px;
+      padding-bottom: 0; }
       section.about-section .row .element-three .six-three .six-three-three .box-text-address .title-box {
         height: 10%; }
+      section.about-section .row .element-three .six-three .six-three-three .box-text-address .image-middle {
+        display: none; }
   section.about-section .row .element-one {
     padding-right: 10%;
     padding-left: 20%; }
@@ -2647,12 +2681,14 @@ section.about-section {
       section.about-section .row .element-three .six-three .six-three-two {
         display: none; }
       section.about-section .row .element-three .six-three .six-three-three {
-        padding: 5% 5% 5% 0;
+        padding: 0;
         font-size: 12px; }
         section.about-section .row .element-three .six-three .six-three-three .box-text-address .title-box {
           height: 30%; }
         section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail .address {
           font-size: 20px; }
+        section.about-section .row .element-three .six-three .six-three-three .box-text-address .addresses-detail .slick-dots li {
+          width: 5px; }
   section.about-section .row .absolute-role-one .two-one {
     margin: 0 0 0 50%; }
     section.about-section .row .absolute-role-one .two-one .text {
