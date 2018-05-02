@@ -1560,8 +1560,8 @@ body .home-session3, body .home-session4 {
   body .home-session3 .bottom-layout, body .home-session4 .bottom-layout {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse; }
     body .home-session3 .bottom-layout .right-layout, body .home-session4 .bottom-layout .right-layout {
       color: #ffffff;
       width: 50%; }
@@ -1763,21 +1763,24 @@ body .home-session6 {
   body .home-session2 {
     display: -ms-flexbox;
     display: flex; }
-    body .home-session2 .left-layout .top-layout {
-      height: 70%; }
-    body .home-session2 .left-layout .bottom-layout .container {
-      padding: 20px;
-      width: 200%; }
-      body .home-session2 .left-layout .bottom-layout .container h1 {
-        font-size: 30px; }
-      body .home-session2 .left-layout .bottom-layout .container .contents {
-        padding-right: 50px;
-        padding-left: 20px;
-        margin-bottom: 20px;
-        border-left: 3px solid #e75a0c; }
+    body .home-session2 .left-layout {
+      width: 0; }
+      body .home-session2 .left-layout .top-layout {
+        height: 70%; }
+      body .home-session2 .left-layout .bottom-layout .container {
+        padding: 35px;
+        width: 280px; }
+        body .home-session2 .left-layout .bottom-layout .container h1 {
+          font-size: 30px; }
+        body .home-session2 .left-layout .bottom-layout .container .contents {
+          padding-right: 50px;
+          padding-left: 20px;
+          margin-bottom: 20px;
+          border-left: 3px solid #e75a0c; }
     body .home-session2 .right-layout {
       height: 1100px;
-      background-color: #353537; }
+      background-color: #353537;
+      width: 100%; }
       body .home-session2 .right-layout .top-layout {
         display: block;
         padding: 40px 20px; }
@@ -1814,7 +1817,8 @@ body .home-session6 {
     width: 98%; }
     body .home-session3 .bottom-layout .right-layout .content, body .home-session4 .bottom-layout .right-layout .content {
       padding-top: 10%;
-      padding-left: 17%; }
+      padding-left: 17%;
+      padding-bottom: 20px; }
       body .home-session3 .bottom-layout .right-layout .content h1, body .home-session4 .bottom-layout .right-layout .content h1 {
         font-size: 30px; }
   body .home-session3 .bottom-layout .left-layout, body .home-session4 .bottom-layout .left-layout {
