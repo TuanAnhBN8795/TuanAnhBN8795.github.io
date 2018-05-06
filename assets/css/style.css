@@ -1763,24 +1763,21 @@ body .home-session6 {
   body .home-session2 {
     display: -ms-flexbox;
     display: flex; }
-    body .home-session2 .left-layout {
-      width: 0; }
-      body .home-session2 .left-layout .top-layout {
-        height: 70%; }
-      body .home-session2 .left-layout .bottom-layout .container {
-        padding: 35px;
-        width: 280px; }
-        body .home-session2 .left-layout .bottom-layout .container h1 {
-          font-size: 30px; }
-        body .home-session2 .left-layout .bottom-layout .container .contents {
-          padding-right: 50px;
-          padding-left: 20px;
-          margin-bottom: 20px;
-          border-left: 3px solid #e75a0c; }
+    body .home-session2 .left-layout .top-layout {
+      height: 70%; }
+    body .home-session2 .left-layout .bottom-layout .container {
+      padding: 20px;
+      width: 200%; }
+      body .home-session2 .left-layout .bottom-layout .container h1 {
+        font-size: 30px; }
+      body .home-session2 .left-layout .bottom-layout .container .contents {
+        padding-right: 50px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        border-left: 3px solid #e75a0c; }
     body .home-session2 .right-layout {
       height: 1100px;
-      background-color: #353537;
-      width: 100%; }
+      background-color: #353537; }
       body .home-session2 .right-layout .top-layout {
         display: block;
         padding: 40px 20px; }
