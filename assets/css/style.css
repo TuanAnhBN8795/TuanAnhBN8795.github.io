@@ -1560,8 +1560,8 @@ body .home-session3, body .home-session4 {
   body .home-session3 .bottom-layout, body .home-session4 .bottom-layout {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap-reverse;
-        flex-wrap: wrap-reverse; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     body .home-session3 .bottom-layout .right-layout, body .home-session4 .bottom-layout .right-layout {
       color: #ffffff;
       width: 50%; }
@@ -1814,8 +1814,7 @@ body .home-session6 {
     width: 98%; }
     body .home-session3 .bottom-layout .right-layout .content, body .home-session4 .bottom-layout .right-layout .content {
       padding-top: 10%;
-      padding-left: 17%;
-      padding-bottom: 20px; }
+      padding-left: 17%; }
       body .home-session3 .bottom-layout .right-layout .content h1, body .home-session4 .bottom-layout .right-layout .content h1 {
         font-size: 30px; }
   body .home-session3 .bottom-layout .left-layout, body .home-session4 .bottom-layout .left-layout {
@@ -2632,6 +2631,9 @@ section.about-section {
     right: 5%; }
   section.about-section .row .element-three {
     height: 740px; }
+    section.about-section .row .element-three .six-one {
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%; }
   section.about-section .row .element-one {
     padding-right: 0;
     padding-left: 0; }
@@ -2661,10 +2663,10 @@ section.about-section {
       section.about-section .row .element-three .six-two .image-top {
         height: 250px; }
     section.about-section .row .element-three .six-three {
-      -ms-flex: 0 0 40%;
-          flex: 0 0 40%; }
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%; }
       section.about-section .row .element-three .six-three .six-three-one {
-        width: 70%; }
+        width: 55%; }
         section.about-section .row .element-three .six-three .six-three-one .image-top {
           height: 250px; }
       section.about-section .row .element-three .six-three .six-three-two {
