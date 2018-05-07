@@ -1560,8 +1560,8 @@ body .home-session3, body .home-session4 {
   body .home-session3 .bottom-layout, body .home-session4 .bottom-layout {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse; }
     body .home-session3 .bottom-layout .right-layout, body .home-session4 .bottom-layout .right-layout {
       color: #ffffff;
       width: 50%; }
@@ -1814,7 +1814,8 @@ body .home-session6 {
     width: 98%; }
     body .home-session3 .bottom-layout .right-layout .content, body .home-session4 .bottom-layout .right-layout .content {
       padding-top: 10%;
-      padding-left: 17%; }
+      padding-left: 17%;
+      padding-bottom: 20px; }
       body .home-session3 .bottom-layout .right-layout .content h1, body .home-session4 .bottom-layout .right-layout .content h1 {
         font-size: 30px; }
   body .home-session3 .bottom-layout .left-layout, body .home-session4 .bottom-layout .left-layout {
