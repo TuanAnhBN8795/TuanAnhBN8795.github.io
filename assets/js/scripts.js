@@ -163,6 +163,28 @@ $(document).ready(function(){
         prevArrow: '<button type="button" class="button-circle-slide-type4"></button>',
     });
 
+    $('.room-type-slide').slick({
+        dots: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 980, // tablet breakpoint
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 480, // mobile breakpoint
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+    
+
     //scroll event
     // GENERAL SETTING
     window.sr = ScrollReveal({ reset: true });
